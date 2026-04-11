@@ -1,0 +1,25 @@
+# Obsidian local workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Third-party plugin binaries
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+
+# Keep plugin manifests/settings small and reviewable
+!.obsidian/plugins/*/manifest.json
+!.obsidian/plugins/*/data.json
+
+# Temporary and scratch files
+Untitled.md
+Untitled/
+*.tmp
+*.bak
+
+# Root-level pasted images should be moved into Assets/ or proof folders
+/Pasted image *.png
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini

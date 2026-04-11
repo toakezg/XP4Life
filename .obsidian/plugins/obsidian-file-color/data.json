@@ -1,0 +1,390 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "zho-ohYukHiwgPA-qZzlG",
+      "name": "Red",
+      "value": "#ff0000"
+    },
+    {
+      "id": "ldNhyuQ2Ls1ISOVXjOYVI",
+      "name": "Blue",
+      "value": "#0008ff"
+    },
+    {
+      "id": "BzcXqM8hVqK1-J5I2f2sJ",
+      "name": "Yellow",
+      "value": "#ffea00"
+    },
+    {
+      "id": "nMPHLmO27RaFOe3Jj51mo",
+      "name": "Green",
+      "value": "#04ff00"
+    },
+    {
+      "id": "hL7ix_g6Lk4VvTXb_-apm",
+      "name": "Purple",
+      "value": "#c803e2"
+    },
+    {
+      "id": "ePnTZ0WNbOpQEp9_pkvwF",
+      "name": "Light-blue",
+      "value": "#75e8ff"
+    },
+    {
+      "id": "7VG8KJhwn3ZQCNgUDJJwC",
+      "name": "Pink",
+      "value": "#fe62f1"
+    },
+    {
+      "id": "bR1ieVqUtexxLiaNYuyGT",
+      "name": "Void",
+      "value": "#560075"
+    },
+    {
+      "id": "axklXP063uXTY-mgm1O_o",
+      "name": "Orange",
+      "value": "#ff6600"
+    },
+    {
+      "id": "dqVoLf3vMOpQTMYRo0wBR",
+      "name": "White",
+      "value": "#ffffff"
+    },
+    {
+      "id": "1jRlqeKRF0SVOFA5WCisd",
+      "name": "Light-grey",
+      "value": "#c2bdbd"
+    },
+    {
+      "id": "_LgdAvem7Q2-w5vpGJpQS",
+      "name": "Dark  Grey",
+      "value": "#707070"
+    },
+    {
+      "id": "ZUgVUiWU4-5DibtoCmLou",
+      "name": "Black",
+      "value": "#030303"
+    },
+    {
+      "id": "TCc0o5DV7yd9h7aK8tdpP",
+      "name": "Map",
+      "value": "#6cf9a2"
+    },
+    {
+      "id": "dGdtEve6ymMWTwjJKSDVC",
+      "name": "Quest Complete",
+      "value": "#f5c105"
+    },
+    {
+      "id": "uV8ktIGHrYnFAQUfMTiLp",
+      "name": "Maps-2",
+      "value": "#de4b1c"
+    },
+    {
+      "id": "WRQmrPCjlPp_MslA_FQNu",
+      "name": "Dahboard",
+      "value": "#03d3f7"
+    },
+    {
+      "id": "fdghkBAHKKtfkwDBMRXR2",
+      "name": "Achievement Core/Unlocked",
+      "value": "#03a800"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Welcome.md",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "TASKS.md",
+      "color": "BzcXqM8hVqK1-J5I2f2sJ"
+    },
+    {
+      "path": "TASKS-DONE.md",
+      "color": "dGdtEve6ymMWTwjJKSDVC"
+    },
+    {
+      "path": "SYSTEM.md",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "README.md",
+      "color": "zho-ohYukHiwgPA-qZzlG"
+    },
+    {
+      "path": "📑PROJECT CONTRACT.md",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "PLAN.md",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "The idea of XP4life convo.md",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "AGENTS.md",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "🖥 MENU/Achievements",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "Core",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "🖥 MENU/Quests",
+      "color": "BzcXqM8hVqK1-J5I2f2sJ"
+    },
+    {
+      "path": "⚙ SETUP",
+      "color": "1jRlqeKRF0SVOFA5WCisd"
+    },
+    {
+      "path": "🖥 MENU/Guides",
+      "color": "1jRlqeKRF0SVOFA5WCisd"
+    },
+    {
+      "path": "Indexes",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "Systems",
+      "color": "1jRlqeKRF0SVOFA5WCisd"
+    },
+    {
+      "path": "Templates",
+      "color": "1jRlqeKRF0SVOFA5WCisd"
+    },
+    {
+      "path": "🖥 MENU/Titles",
+      "color": "hL7ix_g6Lk4VvTXb_-apm"
+    },
+    {
+      "path": "🖥 MENU/Guides/XP",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "Assets",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "Changelog-Auto.md",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "MAPS",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "🖥 MENU/Dashboard.md",
+      "color": "WRQmrPCjlPp_MslA_FQNu"
+    },
+    {
+      "path": "🖥 MENU/Quests/Active",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "🖥 MENU/Quests/Active/Batch Forge Trial.md",
+      "color": "BzcXqM8hVqK1-J5I2f2sJ"
+    },
+    {
+      "path": "🖥 MENU/Quests/Completed/Build the Command Deck.md",
+      "color": "dGdtEve6ymMWTwjJKSDVC"
+    },
+    {
+      "path": "🖥 MENU/Quests/Active/Creative Output Sprint.md",
+      "color": "BzcXqM8hVqK1-J5I2f2sJ"
+    },
+    {
+      "path": "🖥 MENU/Quests/Active/First Client Run.md",
+      "color": "BzcXqM8hVqK1-J5I2f2sJ"
+    },
+    {
+      "path": "🖥 MENU/Quests/Active/Hold the Line.md",
+      "color": "BzcXqM8hVqK1-J5I2f2sJ"
+    },
+    {
+      "path": "🖥 MENU/Quests/Active/Operator's Ledger.md",
+      "color": "BzcXqM8hVqK1-J5I2f2sJ"
+    },
+    {
+      "path": "🖥 MENU/Quests/Active/Our Very Own Icons.md",
+      "color": "BzcXqM8hVqK1-J5I2f2sJ"
+    },
+    {
+      "path": "🖥 MENU/Quests/Active/Quest Engine Setup.md",
+      "color": "BzcXqM8hVqK1-J5I2f2sJ"
+    },
+    {
+      "path": "🖥 MENU/Quests/Active/Reusable Tool Pass.md",
+      "color": "BzcXqM8hVqK1-J5I2f2sJ"
+    },
+    {
+      "path": "🖥 MENU/Quests/Active/Signal to Market.md",
+      "color": "BzcXqM8hVqK1-J5I2f2sJ"
+    },
+    {
+      "path": "🖥 MENU/Quests/Completed",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "🖥 MENU/Quests/Completed/Completed - Visual Proof",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "🖥 MENU/Quests/Completed/📙Completed Quest.md",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "🖥 MENU/Quests/Completed/Forge Foundations ✔.md",
+      "color": "dGdtEve6ymMWTwjJKSDVC"
+    },
+    {
+      "path": "🖥 MENU/Quests/Completed/Manual Make ✔.md",
+      "color": "dGdtEve6ymMWTwjJKSDVC"
+    },
+    {
+      "path": "Assets/XP4Life-Iconset-0/achievements",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "Assets/XP4Life-Iconset-0/quests",
+      "color": "dGdtEve6ymMWTwjJKSDVC"
+    },
+    {
+      "path": "Assets/XP4Life-Iconset-0/rewards",
+      "color": "WRQmrPCjlPp_MslA_FQNu"
+    },
+    {
+      "path": "Assets/XP4Life-Iconset-0/titles",
+      "color": "7VG8KJhwn3ZQCNgUDJJwC"
+    },
+    {
+      "path": "Assets/XP4Life-Iconset-0",
+      "color": "1jRlqeKRF0SVOFA5WCisd"
+    },
+    {
+      "path": "🖥 MENU/9 create",
+      "color": "1jRlqeKRF0SVOFA5WCisd"
+    },
+    {
+      "path": "🖥 MENU/Titles/A Ready Man.md",
+      "color": "7VG8KJhwn3ZQCNgUDJJwC"
+    },
+    {
+      "path": "🖥 MENU/Quests/Active/gotta git ready.md",
+      "color": "BzcXqM8hVqK1-J5I2f2sJ"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/Gone Get Git Ready!.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/Asset Pack Assembled.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/Batch Generator.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/Client-Ready Design.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/Dashboard Online.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/Execution Over Idea.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/First Dollar Earned.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/First Public Offer.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/First Working Script.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/Pushed Through Resistance.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/Quest Engine Live.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/Repeat Income.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/Reusable Tool.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/Shared Publicly.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/System Seeded.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core/Workflow Automation.md",
+      "color": "nMPHLmO27RaFOe3Jj51mo"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Core",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Unlocked",
+      "color": "dqVoLf3vMOpQTMYRo0wBR"
+    },
+    {
+      "path": "🖥 MENU/Achievements/Unlocked/Unlocked Achievements.md",
+      "color": "fdghkBAHKKtfkwDBMRXR2"
+    },
+    {
+      "path": "🖥 MENU/Titles/Builder I.md",
+      "color": "7VG8KJhwn3ZQCNgUDJJwC"
+    },
+    {
+      "path": "🖥 MENU/Titles/Forge Operator.md",
+      "color": "7VG8KJhwn3ZQCNgUDJJwC"
+    },
+    {
+      "path": "🖥 MENU/Titles/Signal Runner.md",
+      "color": "7VG8KJhwn3ZQCNgUDJJwC"
+    },
+    {
+      "path": "🖥 MENU/Titles/Toolsmith.md",
+      "color": "7VG8KJhwn3ZQCNgUDJJwC"
+    },
+    {
+      "path": "🖥 MENU/Titles/Trail Initiate.md",
+      "color": "7VG8KJhwn3ZQCNgUDJJwC"
+    }
+  ]
+}

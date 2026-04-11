@@ -1,0 +1,44 @@
+---
+tags:
+  - core
+  - tasks-done
+---
+# TASKS-DONE
+
+## Completed
+- [x] Read `The idea of XP4Life convo.md` as the primary design brief.
+- [x] Built the first-pass vault structure for quests, achievements, titles, dashboard, indexes, and templates.
+- [x] Created 10 starter quests.
+- [x] Created 15 starter achievements.
+- [x] Created 5 starter titles.
+- [x] Added a starter dashboard and index notes.
+- [x] Added XP rules, plugin/system notes, and a handoff note.
+- [x] Added root project docs required by the project requirements and contract.
+- [x] Reviewed starter quest naming and achievement rarity for pass 2.
+- [x] Confirmed the currently installed community plugins in the vault.
+- [x] Completed `Forge Foundations` and claimed its linked rewards by hand.
+- [x] Ran the first manual quest -> achievement -> title flow.
+- [x] Installed the foundation plugin wave: Dataview, Tasks, and Templater.
+- [x] Added a Tasks-powered quest task feed to the starter dashboard.
+- [x] Installed and enabled Mermaid/map plugins for visual orientation.
+- [x] Created initial roadmap and current-state maps.
+- [x] Confirmed Phase 2 remains in progress.
+- [x] Added `.gitignore` and `.gitattributes` for first-commit hygiene.
+- [x] Documented git commit inclusion rules.
+- [x] Added Tasks usage and tagging guides.
+- [x] Added rarity and XP mechanics tables.
+- [x] Removed raw Templater cursor tags from real quest notes.
+- [x] Removed empty scratch artifacts before git prep.
+- [x] Centralized remaining quest template content into the global `Templates/` folder.
+- [x] Initialized git on branch `main`.
+- [x] Confirmed `.gitignore` behavior for workspace state, plugin binaries, plugin manifests, and plugin settings.
+- [x] Moved the loose XP4Life emblem image into `Assets/`.
+- [x] Cleaned `Welcome.md` encoding and updated its image embed path.
+- [x] Kept and cleaned the completed `Manual Make` proof quest for the first baseline.
+- [x] Reviewed first git status after initialization.
+- [x] Approved the Menu Hub restructure as the current layout and updated references.
+- [x] Removed Templater cursor leftovers from real quest, achievement, title, and placeholder notes.
+- [x] Moved review notes into `Core/Reviews/`.
+- [x] Created `Core/Reviews/Pre-Git Review - 2026-04-11.md`.
+- [x] Created `CODEX_START.md` as the future-session handoff file.
+- [x] Removed empty scratch files before baseline review.

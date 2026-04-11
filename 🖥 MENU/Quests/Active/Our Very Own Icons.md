@@ -1,0 +1,47 @@
+---
+quest_id: QST-CRT-003
+name: Our Very Own Icons
+status: active
+category: creative
+tier: uncommon
+xp_reward: 100
+achievement_unlocks:
+title_reward: ""
+created: 2026-04-11
+due: 2026-04-12
+tags:
+  - quest
+  - system
+  - icon
+---
+# Our Very Own Icons
+
+## Objective
+Create your very own icon set generated via vaultforge-art pipeline
+for highlighted files and folders. Bonus non-highlighted icons are welcome if they fit the set.
+
+## Tasks
+- [x] Create Icons #icon ✅ 2026-04-11
+	- [x] Achievements   icon ✅ 2026-04-11
+	- [ ] Dashboard Icon
+	- [ ] Quests - Active, / Completed Icon
+	- [ ] Titles - Each Custom Icon
+	- [ ] AGENTS Icon
+	- [ ] CHANGELOG Icon
+	- [ ] PLAN
+	- [ ] PROJECT CONTRACT
+	- [ ] README
+	- [ ] TASKS
+	- [ ] Welcome
+	- [ ] Bonus
+
+
+
+## Rewards
+- XP: 100
+
+## Completion Proof
+- Icon outputs are being collected under [[Assets/XP4Life-Iconset-0]].
+
+## Notes
+- [x] icons as rewards? discuss... 🛫 2026-04-12 ✅ 2026-04-11

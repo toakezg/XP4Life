@@ -1,0 +1,59 @@
+{
+  "transformPreset": "DEFAULT",
+  "rules": [
+    {
+      "matcher": {
+        "method": "STARTS_WITH",
+        "value": "_",
+        "context": "NAME"
+      },
+      "mode": "DIM",
+      "excludes": []
+    },
+    {
+      "matcher": {
+        "method": "STARTS_WITH",
+        "value": ".",
+        "context": "NAME"
+      },
+      "mode": "DIM",
+      "excludes": []
+    },
+    {
+      "matcher": {
+        "method": "STARTS_WITH",
+        "value": "!",
+        "context": "NAME"
+      },
+      "mode": "HIGHLIGHT",
+      "excludes": []
+    }
+  ],
+  "fileOverwrites": {
+    "CHANGELOG.md": "HIGHLIGHT",
+    "PLAN.md": "HIGHLIGHT",
+    "README.md": "HIGHLIGHT",
+    "Welcome.md": "HIGHLIGHT",
+    "SYSTEM.md": "HIGHLIGHT",
+    "The idea of XP4life convo.md": "DIM",
+    "Assets/Pasted image 20260410131531.png": "DIM",
+    "Indexes": "HIGHLIGHT",
+    "Core": "HIGHLIGHT",
+    "TASKS.md": "HIGHLIGHT",
+    "MAPS": "HIGHLIGHT",
+    "AGENTS.md": "HIGHLIGHT",
+    "🖥 MENU": "HIGHLIGHT",
+    "🖥 MENU/Achievements": "HIGHLIGHT",
+    "🖥 MENU/Achievements/Core/Gone Get Git Ready!.md": "HIGHLIGHT",
+    "🖥 MENU/9 create": "DIM",
+    "🖥 MENU/Quests": "HIGHLIGHT",
+    "🖥 MENU/Quests/Active": "HIGHLIGHT",
+    "🖥 MENU/Quests/Completed": "HIGHLIGHT",
+    "🖥 MENU/Quests/Completed/📙Completed Quest.md": "HIGHLIGHT",
+    "🖥 MENU/Quests/Active/gotta git ready.md": "HIGHLIGHT",
+    "🖥 MENU/Titles": "HIGHLIGHT",
+    "🖥 MENU/Titles/A Ready Man.md": "HIGHLIGHT",
+    "🖥 MENU/Guides": "HIGHLIGHT",
+    "🖥 MENU/Dashboard.md": "HIGHLIGHT"
+  }
+}
