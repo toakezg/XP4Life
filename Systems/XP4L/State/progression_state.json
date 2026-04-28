@@ -1,0 +1,177 @@
+{
+  "achievements": {
+    "engine-architect-i": {
+      "matched_days": [
+        "2026-04-16",
+        "2026-04-17"
+      ],
+      "matched_event_ids": [
+        "live-doc-pass-20260416-01",
+        "live-output-align-20260417-01",
+        "live-doc-contract-20260417-01"
+      ],
+      "reward_xp_claimed": true,
+      "unlocked": true,
+      "unlocked_on": "2026-04-17"
+    },
+    "three-day-streak": {
+      "matched_days": [
+        "2026-04-16",
+        "2026-04-17"
+      ],
+      "matched_event_ids": [
+        "live-doc-pass-20260416-01",
+        "live-output-align-20260417-01",
+        "live-validation-batch-20260417-01",
+        "live-doc-contract-20260417-01"
+      ],
+      "reward_xp_claimed": false,
+      "unlocked": false,
+      "unlocked_on": ""
+    }
+  },
+  "events": {
+    "icon_loop_run-20260417-03": {
+      "action": "generate_icon_batch",
+      "category": "creative_output",
+      "day": "2026-04-17",
+      "event_id": "icon_loop_run-20260417-03",
+      "event_type": "batch.completed",
+      "source": "vaultforge-art",
+      "timestamp": "2026-04-17T02:15:00+10:00",
+      "xp_awarded": 260
+    },
+    "live-doc-contract-20260417-01": {
+      "action": "document_live_validation",
+      "category": "system_integration",
+      "day": "2026-04-17",
+      "event_id": "live-doc-contract-20260417-01",
+      "event_type": "task.completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-17T02:26:00+10:00",
+      "xp_awarded": 106
+    },
+    "live-doc-pass-20260416-01": {
+      "action": "review_xp4life_vault",
+      "category": "system_integration",
+      "day": "2026-04-16",
+      "event_id": "live-doc-pass-20260416-01",
+      "event_type": "task.completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-16T23:08:00+10:00",
+      "xp_awarded": 94
+    },
+    "live-output-align-20260417-01": {
+      "action": "align_obsidian_output",
+      "category": "system_integration",
+      "day": "2026-04-17",
+      "event_id": "live-output-align-20260417-01",
+      "event_type": "task.completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-17T01:48:00+10:00",
+      "xp_awarded": 142
+    },
+    "live-validation-batch-20260417-01": {
+      "action": "run_validation_suite",
+      "category": "code_automation",
+      "day": "2026-04-17",
+      "event_id": "live-validation-batch-20260417-01",
+      "event_type": "batch.completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-17T02:02:00+10:00",
+      "xp_awarded": 174
+    },
+    "live-validation-batch-20260417-02": {
+      "action": "run_validation_suite",
+      "category": "code_automation",
+      "day": "2026-04-17",
+      "event_id": "live-validation-batch-20260417-02",
+      "event_type": "batch.completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-17T02:07:00+10:00",
+      "xp_awarded": 174
+    },
+    "live-validation-batch-20260417-03": {
+      "action": "run_validation_suite",
+      "category": "code_automation",
+      "day": "2026-04-17",
+      "event_id": "live-validation-batch-20260417-03",
+      "event_type": "batch.completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-17T02:15:00+10:00",
+      "xp_awarded": 194
+    }
+  },
+  "last_run": {
+    "applied_at": "2026-04-16T23:48:31.840136+00:00",
+    "applied_bonus_xp_awarded": 0,
+    "applied_event_ids": [
+      "icon_loop_run-20260417-03"
+    ],
+    "applied_event_xp_awarded": 260,
+    "applied_xp_awarded": 260,
+    "batch_event_ids": [
+      "icon_loop_run-20260417-03"
+    ],
+    "duplicate_event_ids": [],
+    "issued_reward_keys": [
+      "xp-threshold::1800::vault-architect"
+    ]
+  },
+  "quests": {
+    "batch-builder": {
+      "completed": true,
+      "completed_on": "2026-04-17",
+      "matched_event_ids": [
+        "live-validation-batch-20260417-01",
+        "live-validation-batch-20260417-02",
+        "live-validation-batch-20260417-03",
+        "icon_loop_run-20260417-03"
+      ],
+      "reward_xp_claimed": true
+    },
+    "icon-output-streak": {
+      "completed": false,
+      "completed_on": "",
+      "matched_event_ids": [],
+      "reward_xp_claimed": false
+    }
+  },
+  "rewards": {
+    "achievement::engine-architect-i::architect-s-sigil": {
+      "issued_on": "2026-04-17",
+      "name": "Architect's Sigil",
+      "rarity": "epic",
+      "reason": "Unlocked achievement engine-architect-i",
+      "type": "item"
+    },
+    "xp-threshold::1800::vault-architect": {
+      "issued_on": "2026-04-17",
+      "name": "Vault Architect",
+      "rarity": "epic",
+      "reason": "Reached 1800 cumulative XP",
+      "type": "title"
+    },
+    "xp-threshold::400::apprentice-cache": {
+      "issued_on": "2026-04-17",
+      "name": "Apprentice Cache",
+      "rarity": "common",
+      "reason": "Reached 400 cumulative XP",
+      "type": "title"
+    },
+    "xp-threshold::900::fireforged-toolset": {
+      "issued_on": "2026-04-17",
+      "name": "Fireforged Toolset",
+      "rarity": "rare",
+      "reason": "Reached 900 cumulative XP",
+      "type": "item"
+    }
+  },
+  "schema_version": 1,
+  "totals": {
+    "bonus_xp_awarded": 680,
+    "event_xp_awarded": 1144,
+    "events_processed": 7,
+    "xp_awarded": 1824
+  }
+}

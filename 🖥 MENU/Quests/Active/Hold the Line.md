@@ -21,10 +21,10 @@ tags:
 Push through one session of resistance and finish something useful on the other side of it.
 
 ## Tasks
-- [ ] Pick one task you have been avoiding
+- [x] Pick one task you have been avoiding ✅ 2026-04-17
 - [x] Commit to a focused work block ✅ 2026-04-11
-- [ ] Keep going after the first urge to stop
-- [ ] Finish one concrete output
+- [x] Keep going after the first urge to stop ✅ 2026-04-17
+- [x] Finish one concrete output ✅ 2026-04-17
 - [ ] Log what nearly pulled you off track
 
 ## Rewards

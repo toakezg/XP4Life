@@ -1,0 +1,11 @@
+views:
+  - type: table
+    name: Table
+  - type: cards
+    name: View
+    filters:
+      and:
+        - file.ext == "png"
+    imageAspectRatio: 2.1
+    image: file.file
+    imageFit: contain

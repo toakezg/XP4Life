@@ -6,6 +6,7 @@ tags:
 # TASKS-DONE
 
 ## Completed
+- [x] Read `SEE_ME.md` and added `RECOVERY_PLAN.md`.
 - [x] Read `The idea of XP4Life convo.md` as the primary design brief.
 - [x] Built the first-pass vault structure for quests, achievements, titles, dashboard, indexes, and templates.
 - [x] Created 10 starter quests.

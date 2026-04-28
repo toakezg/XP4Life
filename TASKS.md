@@ -6,9 +6,11 @@ tags:
 # TASKS
 
 ## Active
-- No active pre-commit cleanup tasks remain. The next task is the explicit Git baseline action when approved.
+- [ ] Decide whether Recovery Pack content lands before or after the first baseline commit. 2026-04-14 #task #recovery #git-ready
+- [ ] Review `RECOVERY_PLAN.md` and approve the first recovery content drop. 2026-04-14 #task #recovery #docs
 
 ## Completed Today
+- [x] Read `SEE_ME.md` and created a recovery implementation plan for retroactive XP, recovered quests, hidden achievements, titles, rewards, and dot4 scanner practice. 2026-04-14 #task #recovery #docs
 - [x] Approved the Menu Hub restructure as the current layout and updated path references across docs, dashboard, guides, indexes, and reviews. 2026-04-11 #task #git-ready #menu
 - [x] Checked the `#CODEX` `<% %>` concern: Templater tags are valid only inside `Templates/`, so leftover cursor tags were removed from real quest, achievement, title, and placeholder notes. 2026-04-11 #task #cleanup #templater
 - [x] Run one more real quest through the full quest -> achievement -> title flow. 2026-04-11 #task #quest-loop #manual-check
@@ -35,6 +37,11 @@ tags:
 
 ## Next
 - [ ] Stage and commit the first baseline when approved. #task #git-ready
+- [ ] Convert Recovery Pack aggregate notes into YAML-bearing recovered quest, achievement, and title notes. #task #recovery
+- [ ] Create the Dot4 XP Node Spec and scanner practice payload examples. #task #scanner #dot4
+- [ ] Test scanner reporting on `.4/see-me.txt` before parsing XP tags. #task #scanner #dot4
+- [ ] Add a parser plan for XP tags like `#120XP` and `#200XP/bonus` after dot4 parsing works. #task #scanner #vaultforge
+- [ ] Keep rewards to seed items for now; defer gear rules, currency mechanics, and visual generators. #task #rewards #scope
 - [ ] Add daily quest structure only if it improves execution rather than clutter. #task #scope
 - [ ] Design a simple level curve after real XP has been earned. #task #xp
 - [ ] Add QuickAdd or Buttons only after the manual flow feels correct. #task #plugin #scope

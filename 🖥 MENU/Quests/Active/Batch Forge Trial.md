@@ -22,7 +22,7 @@ Run a real batch generation pass and turn raw outputs into a usable creative sam
 
 ## Tasks
 - [ ] Prepare a prompt set or batch input
-- [ ] Run the batch generation
+- [x] Run the batch generation ✅ 2026-04-17
 - [x] Sort outputs and remove weak results ✅ 2026-04-11
 - [ ] Save the strongest 10 outputs
 - [x] Note what to improve in the next run ✅ 2026-04-11

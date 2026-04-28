@@ -23,17 +23,17 @@ for highlighted files and folders. Bonus non-highlighted icons are welcome if th
 ## Tasks
 - [x] Create Icons #icon ✅ 2026-04-11
 	- [x] Achievements   icon ✅ 2026-04-11
-	- [ ] Dashboard Icon
-	- [ ] Quests - Active, / Completed Icon
-	- [ ] Titles - Each Custom Icon
+	- [x] Dashboard Icon ✅ 2026-04-17
+	- [x] Quests - Active, / Completed Icon ✅ 2026-04-17
+	- [x] Titles - Each Custom Icon ✅ 2026-04-17
 	- [ ] AGENTS Icon
 	- [ ] CHANGELOG Icon
 	- [ ] PLAN
 	- [ ] PROJECT CONTRACT
 	- [ ] README
-	- [ ] TASKS
+	- [x] TASKS ✅ 2026-04-17
 	- [ ] Welcome
-	- [ ] Bonus
+	- [x] Bonus ✅ 2026-04-17
 
 
 

@@ -5,6 +5,17 @@ tags:
 ---
 # CHANGELOG
 
+## 2026-04-28
+- no current XP4Life reward implementation or dashboard UI updates shown as this point
+- ingestion of and event.log 
+- courier drop offs 
+- added .\logs\evennts.log - these are part of the courier handoff done  that lives inn .4 root, after find and pick of of ..4 inboxxes around the system tat contain event json files. they drop off to here and then the use of  xp4l_consumer.py in XP4Life to ingest
+
+## 2026-04-14
+- Read `SEE_ME.md` as the new active recovery-planning input.
+- Added `RECOVERY_PLAN.md` to turn the recovery pack into scoped implementation steps.
+- Updated `TASKS.md` with recovery, dot4 scanner, XP tag parsing, and reward seed follow-up tasks.
+- Noted that no staging, commit, push, or phase expansion was performed.
 
 ## 2026-04-11
 - added icons to some folders/notes (remove for custom later)

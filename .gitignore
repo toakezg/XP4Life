@@ -1,6 +1,7 @@
 # Obsidian local workspace state
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/
 
 # Third-party plugin binaries
 .obsidian/plugins/*/main.js
@@ -23,3 +24,16 @@ Untitled/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Assets
+Assets/
+
+# No idea
+/360/
+
+.makemd/
+.space/
+Untitled.bas
+__pycache__/
+keys.zip
+notes/

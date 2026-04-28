@@ -1,0 +1,4 @@
+{"id": "wired-2026-04-28-003", "ts": "2026-04-28T18:30:00+10:11", "source": "manual-test", "type": "run", "label": "Second XP4L handoff test", "xp": 10}
+{"id": "wired-2026-04-28-002", "ts": "2026-04-28T18:30:00+10:00", "source": "manual-test", "type": "run", "label": "Second XP4L handoff test", "xp": 10}
+{"id": "wired-2026-04-28-004", "ts": "2026-04-28T19:30:00+10:00", "source": "manual-test", "type": "run", "label": "Total XP file test", "xp": 10}
+{"id": "wired-2026-04-28-005", "ts": "2026-04-28T20:30:00+10:00", "source": "manual-test", "type": "run", "label": "Total XP file test", "xp": 20}

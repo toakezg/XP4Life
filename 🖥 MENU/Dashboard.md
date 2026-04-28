@@ -11,15 +11,16 @@ tags:
 ## Active Quests
 ```dataview
 TABLE quest_id AS "Quest ID", category AS "Category", tier AS "Tier", xp_reward AS "XP", due AS "Due"
-FROM "🖥 MENU/Quests/Active"
-WHERE status = "active"
+FROM "🖥 MENU/Quests"
+WHERE quest_id AND status = "active"
 SORT due ASC
+SORT file.name ASC
 ```
 
 ## Open Quest Tasks
 ```tasks
 not done
-path includes 🖥 MENU/Quests/Active
+path includes 🖥 MENU/Quests
 sort by due
 sort by path
 ```
@@ -27,8 +28,8 @@ sort by path
 ## Completed Quests
 ```dataview
 TABLE quest_id AS "Quest ID", category AS "Category", tier AS "Tier", xp_reward AS "XP"
-FROM "🖥 MENU/Quests/Completed"
-WHERE status = "completed"
+FROM "🖥 MENU/Quests"
+WHERE quest_id AND status = "completed"
 SORT file.name ASC
 ```
 
@@ -86,3 +87,5 @@ dv.table(["Category", "Active Quests", "Completed Quests", "Unlocked Achievement
 - Run one more quest through the full reward loop now that the foundation plugins are installed.
 - Start `Batch Forge Trial` or `Reusable Tool Pass` once a concrete build target is chosen.
 - Claim achievements by updating YAML as soon as proof exists.
+
+
