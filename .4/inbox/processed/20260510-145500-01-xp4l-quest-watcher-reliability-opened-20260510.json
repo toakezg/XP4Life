@@ -1,0 +1,36 @@
+{
+  "adapter": "vaultforge-xp4l-dot4-inbox.v1",
+  "records": [
+    {
+      "context": {
+        "text": "Created a continuation quest from terminal findings to decide persistence, broaden matching safely, dry-run event records, and verify watcher reliability."
+      },
+      "event": {
+        "action": "opened quest watcher reliability pass",
+        "category": "system",
+        "type": "task_created"
+      },
+      "id": "xp4l-quest-watcher-reliability-opened-20260510",
+      "metadata": {
+        "artifact_path": "F:\\XP4Life\\🖥 MENU\\Quests\\Active\\Quest Watcher Reliability Pass.md",
+        "project": "XP4Life",
+        "task_type": "quest-created",
+        "xp": 0,
+        "xp_awarded": 0
+      },
+      "occurred_at": "2026-05-10T14:55:00+10:00",
+      "source": "vaultforge-code",
+      "tags": [
+        "xp4l",
+        "dot4",
+        "watcher",
+        "follow-up",
+        "xp4life",
+        "quest-created",
+        "vaultforge-code",
+        "task_created",
+        "system"
+      ]
+    }
+  ]
+}

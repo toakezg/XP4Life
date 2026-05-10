@@ -1,0 +1,61 @@
+{
+  "adapter": "vaultforge-xp4l-dot4-inbox.v1",
+  "records": [
+    {
+      "id": "vaultforge-code-dcs-workflow-growth-20260510-174148",
+      "occurred_at": "2026-05-10T17:41:48+10:00",
+      "source": "vaultforge-code",
+      "event": {
+        "type": "task_completed",
+        "category": "documentation",
+        "action": "refined shared dcs workflow note"
+      },
+      "metadata": {
+        "project": "MythicNexus",
+        "task_type": "workflow-refinement",
+        "artifact_path": "F:\\projects\\MythicNexus\\MythicNexus\\docs\\dcs\\4-reflection\\REPEATED_CHECK_WORKFLOW.md",
+        "workflow_home": "F:\\toakezg\\workflows",
+        "xp": 0,
+        "xp_awarded": 0
+      },
+      "tags": [
+        "xp4l",
+        "dot4",
+        "workflow",
+        "dcs",
+        "vaultforge-code"
+      ],
+      "context": {
+        "text": "Added universal workflow framing, improvements and weaknesses, stage-aware sequencing, and prompt-ready forms for repeated DCS maintenance runs."
+      }
+    },
+    {
+      "id": "vaultforge-code-created-xp4life-quest-from-workflow-20260510-174148",
+      "occurred_at": "2026-05-10T17:41:48+10:00",
+      "source": "vaultforge-code",
+      "event": {
+        "type": "task_completed",
+        "category": "system",
+        "action": "created xp4life quest from workflow"
+      },
+      "metadata": {
+        "project": "XP4Life",
+        "task_type": "quest-creation",
+        "artifact_path": "F:\\XP4Life\\🖥 MENU\\Quests\\Active\\DCS Workflow Relay.md",
+        "related_quest": "F:\\XP4Life\\🖥 MENU\\Quests\\Active\\DCS Workflow Relay.md",
+        "xp": 0,
+        "xp_awarded": 0
+      },
+      "tags": [
+        "xp4l",
+        "dot4",
+        "quest",
+        "dcs",
+        "vaultforge-code"
+      ],
+      "context": {
+        "text": "Created a hand-authored XP4Life quest from the DCS workflow note, with task order map, workflow map, and a remaining promotion gate to the shared workflows home."
+      }
+    }
+  ]
+}

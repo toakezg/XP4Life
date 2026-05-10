@@ -1,5 +1,6 @@
-.4/
-
+.4/processed/
+.4/rejected/
+/**.log
 # Obsidian local workspace state
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json

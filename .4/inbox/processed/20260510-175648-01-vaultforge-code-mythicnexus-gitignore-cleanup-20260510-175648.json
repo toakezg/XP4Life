@@ -1,0 +1,47 @@
+{
+  "adapter": "vaultforge-xp4l-dot4-inbox.v1",
+  "records": [
+    {
+      "context": {
+        "text": "Created a root .gitignore for the MythicNexus repo, verified the ignored local state, staged the nested project tree, and committed the snapshot as fb08a66. Changelog-Auto.md was unintentionally included because it was already untracked when the bulk add ran."
+      },
+      "event": {
+        "action": "added repo ignore rules and committed mythicnexus snapshot",
+        "category": "coding",
+        "type": "task_completed"
+      },
+      "id": "vaultforge-code-mythicnexus-gitignore-cleanup-20260510-175648",
+      "metadata": {
+        "artifact_path": "F:\\projects\\MythicNexus\\.gitignore",
+        "changed_paths": [
+          ".gitignore",
+          "Changelog-Auto.md"
+        ],
+        "commit_hash": "fb08a66",
+        "ignored_paths": [
+          "MythicNexus/.venv/",
+          "MythicNexus/mythicnexus/__pycache__/",
+          ".obsidian/",
+          "MythicNexus/obsidian_vault/.obsidian/workspace.json"
+        ],
+        "project": "MythicNexus",
+        "repo_root": "F:\\projects\\MythicNexus",
+        "task_type": "repository-maintenance"
+      },
+      "occurred_at": "2026-05-10T17:56:48+10:00",
+      "source": "vaultforge-code",
+      "tags": [
+        "xp4l",
+        "dot4",
+        "git",
+        "repo",
+        "cleanup",
+        "vaultforge-code",
+        "mythicnexus",
+        "repository-maintenance",
+        "task_completed",
+        "coding"
+      ]
+    }
+  ]
+}
