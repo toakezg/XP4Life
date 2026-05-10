@@ -16,6 +16,56 @@
     }
   },
   "events": {
+    "dcs-doc-generator-docs-hardening-20260510-175420": {
+      "action": "hardened dcs-doc generator and documentation workflow",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "dcs-doc-generator-docs-hardening-20260510-175420",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T17:54:20+10:00",
+      "xp_awarded": 50
+    },
+    "dcs-doc-maturity-findings-quest-20260510-175400": {
+      "action": "converted dcs-doc review findings into a completed XP4Life maturity quest",
+      "category": "system",
+      "day": "2026-05-10",
+      "event_id": "dcs-doc-maturity-findings-quest-20260510-175400",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T17:54:00+10:00",
+      "xp_awarded": 50
+    },
+    "dcs-doc-maturity-pass-20260510": {
+      "action": "completed dcs doc maturity pass",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "dcs-doc-maturity-pass-20260510",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T14:46:00+10:00",
+      "xp_awarded": 50
+    },
+    "dcs-doc-validator-hardening-20260510-175410": {
+      "action": "hardened dcs-doc validator for full write output",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "dcs-doc-validator-hardening-20260510-175410",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T17:54:10+10:00",
+      "xp_awarded": 50
+    },
+    "dcs-full-write-calibration-quest-unlocked-20260510-175430": {
+      "action": "unlocked dcs full write calibration quest",
+      "category": "system",
+      "day": "2026-05-10",
+      "event_id": "dcs-full-write-calibration-quest-unlocked-20260510-175430",
+      "event_type": "quest_unlocked",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T17:54:30+10:00",
+      "xp_awarded": 50
+    },
     "vaultforge-20260509T211407-workflow-b-controller": {
       "action": "implemented Workflow B controller and run packet scaffolding",
       "category": "coding",
@@ -114,6 +164,16 @@
       "event_type": "task_completed",
       "source": "vaultforge-business",
       "timestamp": "2026-05-09T20:21:25+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-added---save-targets-and---target-found-so-discovered-dot4-route-20260510-075546": {
+      "action": "Added `--save-targets` and `--target-found` so discovered dot4 routes can be cached and reused without rescanning the drive.",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-code-added---save-targets-and---target-found-so-discovered-dot4-route-20260510-075546",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T07:55:46+00:00",
       "xp_awarded": 50
     },
     "vaultforge-code-added-approved-git-safe.directory-entries-for-the-core-f-reposit-20260501-035529": {
@@ -716,6 +776,56 @@
       "timestamp": "2026-04-30T19:05:47+00:00",
       "xp_awarded": 50
     },
+    "vaultforge-code-created-xp4life-quest-from-workflow-20260510-174148": {
+      "action": "created xp4life quest from workflow",
+      "category": "system",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-code-created-xp4life-quest-from-workflow-20260510-174148",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T17:41:48+10:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-dcs-coordinate-grid-20260510-174403": {
+      "action": "expanded VaultForge DCS mirror coordinate grid through x.y.3",
+      "category": "documentation",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-code-dcs-coordinate-grid-20260510-174403",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T17:44:03+10:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-dcs-merge-all-20260510-174403": {
+      "action": "implemented and ran dated DCS merge-all bundle",
+      "category": "documentation",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-code-dcs-merge-all-20260510-174403",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T17:44:03+10:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-dcs-mirror-command-surface-20260510-174403": {
+      "action": "updated dcs-mirror command surface for core, write, expansion, and child-coordinate runs",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-code-dcs-mirror-command-surface-20260510-174403",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T17:44:03+10:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-dcs-workflow-growth-20260510-174148": {
+      "action": "refined shared dcs workflow note",
+      "category": "documentation",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-code-dcs-workflow-growth-20260510-174148",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T17:41:48+10:00",
+      "xp_awarded": 50
+    },
     "vaultforge-code-did-not-copy-vault-preset_channel-videos.txt-because-useful-cont-20260430-190510": {
       "action": "Did not copy vault PRESET_channel-videos.txt because useful content was already preserved from the tools copy.",
       "category": "maintenance",
@@ -804,6 +914,16 @@
       "event_type": "checklist_item_completed",
       "source": "vaultforge-code",
       "timestamp": "2026-04-30T19:04:53+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-implemented---target-all-in-stub.py-so-the-courier-can-scan-f-fo-20260510-075545": {
+      "action": "Implemented `--target-all` in `stub.py` so the courier can scan `F:\\` for `.4\\inbox\\events` targets while skipping deep folders like `.obsidian`, `.venv`, and `node_modules`.",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-code-implemented---target-all-in-stub.py-so-the-courier-can-scan-f-fo-20260510-075545",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T07:55:45+00:00",
       "xp_awarded": 50
     },
     "vaultforge-code-installed-requirements.txt-pass-20260430-190551": {
@@ -1246,6 +1366,26 @@
       "timestamp": "2026-05-01T03:55:37+00:00",
       "xp_awarded": 50
     },
+    "vaultforge-code-mythicnexus-gitignore-cleanup-20260510-175648": {
+      "action": "added repo ignore rules and committed mythicnexus snapshot",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-code-mythicnexus-gitignore-cleanup-20260510-175648",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T17:56:48+10:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-opened-the-real-xp4life-vault-at-f-xp4life-found-the-active-ques-20260510-075548": {
+      "action": "Opened the real XP4Life vault at `F:\\XP4Life`, found the active quest templates, and unlocked the quest-note pattern needed for the follow-up quest.",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-code-opened-the-real-xp4life-vault-at-f-xp4life-found-the-active-ques-20260510-075548",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T07:55:48+00:00",
+      "xp_awarded": 50
+    },
     "vaultforge-code-parked-the-run-14-test-event-in-f-.4-inbox-test_hold-and-verifie-20260501-035559": {
       "action": "Parked the Run 14 test event in F:\\.4\\inbox\\test_hold and verified the active F:\\.4\\inbox\\events queue was clean afterward #dot4 #xp4l #safety",
       "category": "system",
@@ -1486,6 +1626,26 @@
       "timestamp": "2026-05-01T03:55:45+00:00",
       "xp_awarded": 50
     },
+    "vaultforge-code-thread-thinker-hidden-route-quest-20260510-175901": {
+      "action": "created thread thinker hidden route xp4life quest",
+      "category": "system",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-code-thread-thinker-hidden-route-quest-20260510-175901",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T17:59:01+10:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-thread-thinker-route-survey-20260510-175900": {
+      "action": "surveyed thread thinker completions hidden state and next routes",
+      "category": "system",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-code-thread-thinker-route-survey-20260510-175900",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T17:59:00+10:00",
+      "xp_awarded": 50
+    },
     "vaultforge-code-updated-f-.4-readme.txt-to-document-the-courier-as-postman-not-a-20260501-035551": {
       "action": "Updated F:\\.4\\README.txt to document the courier as postman, not accountant, and point it at the vaultforge-xp4l adapter #dot4 #xp4l #docs",
       "category": "system",
@@ -1556,6 +1716,16 @@
       "timestamp": "2026-05-01T03:55:43+00:00",
       "xp_awarded": 50
     },
+    "vaultforge-code-verified-the-courier-change-with-python--m-py_compile-stub.py-a--20260510-075547": {
+      "action": "Verified the courier change with `python -m py_compile stub.py`, a temp-tree scan/cache round-trip, and `python stub.py --help`.",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-code-verified-the-courier-change-with-python--m-py_compile-stub.py-a--20260510-075547",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T07:55:47+00:00",
+      "xp_awarded": 50
+    },
     "vaultforge-code-verified-vaultforge-xp4l-cli-help-works-from-source-with-pythonp-20260501-035528": {
       "action": "Verified vaultforge-xp4l CLI help works from source with PYTHONPATH=src and PYTHONDONTWRITEBYTECODE=1 #xp4l #coding #validation",
       "category": "system",
@@ -1615,26 +1785,64 @@
       "source": "vaultforge-code",
       "timestamp": "2026-05-01T03:56:06+00:00",
       "xp_awarded": 50
+    },
+    "xp4l-deep-quest-scan-20260510": {
+      "action": "completed deep scan of active quest tasks",
+      "category": "system",
+      "day": "2026-05-10",
+      "event_id": "xp4l-deep-quest-scan-20260510",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T14:03:00+10:00",
+      "xp_awarded": 50
+    },
+    "xp4l-quest-watcher-reliability-opened-20260510": {
+      "action": "opened quest watcher reliability pass",
+      "category": "system",
+      "day": "2026-05-10",
+      "event_id": "xp4l-quest-watcher-reliability-opened-20260510",
+      "event_type": "task_created",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T14:55:00+10:00",
+      "xp_awarded": 50
+    },
+    "xp4l-watcher-reusable-tool-pass-20260510": {
+      "action": "closed reusable quest watcher tool pass",
+      "category": "system",
+      "day": "2026-05-10",
+      "event_id": "xp4l-watcher-reusable-tool-pass-20260510",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T14:50:00+10:00",
+      "xp_awarded": 50
     }
   },
   "last_run": {
-    "applied_at": "2026-05-10T01:57:23.150013+00:00",
+    "applied_at": "2026-05-10T08:16:41.756676+00:00",
     "applied_bonus_xp_awarded": 0,
     "applied_event_ids": [
-      "vaultforge-code-workflow-b-cycle-1-vaultforge-engine-review-20260509-195922",
-      "vaultforge-code-workflow-b-cycle-2-vaultforge-engine-review-20260509-200800",
-      "vaultforge-business-paid-launch-decision-note-20260509-202125",
-      "vaultforge-code-limit-xp4l-dry-run-reporting-current-events-20260509-214758",
-      "vaultforge-code-workflow-b-hard-gate-management-update-20260509-215207"
+      "xp4l-deep-quest-scan-20260510",
+      "dcs-doc-maturity-pass-20260510",
+      "xp4l-watcher-reusable-tool-pass-20260510",
+      "xp4l-quest-watcher-reliability-opened-20260510",
+      "vaultforge-code-dcs-workflow-growth-20260510-174148",
+      "vaultforge-code-created-xp4life-quest-from-workflow-20260510-174148",
+      "vaultforge-code-mythicnexus-gitignore-cleanup-20260510-175648",
+      "vaultforge-code-thread-thinker-route-survey-20260510-175900",
+      "vaultforge-code-thread-thinker-hidden-route-quest-20260510-175901"
     ],
-    "applied_event_xp_awarded": 250,
-    "applied_xp_awarded": 250,
+    "applied_event_xp_awarded": 450,
+    "applied_xp_awarded": 450,
     "batch_event_ids": [
-      "vaultforge-code-workflow-b-cycle-1-vaultforge-engine-review-20260509-195922",
-      "vaultforge-code-workflow-b-cycle-2-vaultforge-engine-review-20260509-200800",
-      "vaultforge-business-paid-launch-decision-note-20260509-202125",
-      "vaultforge-code-limit-xp4l-dry-run-reporting-current-events-20260509-214758",
-      "vaultforge-code-workflow-b-hard-gate-management-update-20260509-215207"
+      "xp4l-deep-quest-scan-20260510",
+      "dcs-doc-maturity-pass-20260510",
+      "xp4l-watcher-reusable-tool-pass-20260510",
+      "xp4l-quest-watcher-reliability-opened-20260510",
+      "vaultforge-code-dcs-workflow-growth-20260510-174148",
+      "vaultforge-code-created-xp4life-quest-from-workflow-20260510-174148",
+      "vaultforge-code-mythicnexus-gitignore-cleanup-20260510-175648",
+      "vaultforge-code-thread-thinker-route-survey-20260510-175900",
+      "vaultforge-code-thread-thinker-hidden-route-quest-20260510-175901"
     ],
     "duplicate_event_ids": [],
     "issued_reward_keys": []
@@ -1679,8 +1887,8 @@
   "schema_version": 1,
   "totals": {
     "bonus_xp_awarded": 0,
-    "event_xp_awarded": 8006,
-    "events_processed": 160,
-    "xp_awarded": 8006
+    "event_xp_awarded": 9006,
+    "events_processed": 180,
+    "xp_awarded": 9006
   }
 }
