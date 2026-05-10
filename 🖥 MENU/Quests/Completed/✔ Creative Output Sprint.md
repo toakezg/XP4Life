@@ -1,13 +1,13 @@
 ---
 quest_id: QST-CRT-002
-name: "Creative Output Sprint"
-status: active
+name: Creative Output Sprint
+status: completed
 category: creative
 tier: uncommon
 xp_reward: 170
 achievement_unlocks:
   - VF-CRT-002
-title_reward: "Forge Operator"
+title_reward: Forge Operator
 created: 2026-04-10
 due: 2026-04-19
 tags:
