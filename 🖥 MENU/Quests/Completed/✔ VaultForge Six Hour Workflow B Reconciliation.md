@@ -1,7 +1,7 @@
 ---
 quest_id: QST-VF-SIX-HOUR-WFB-RECON
 name: "VaultForge Six Hour Workflow B Reconciliation"
-status: active
+status: completed
 category: system
 tier: rare
 xp_reward: 340
@@ -10,8 +10,9 @@ achievement_unlocks:
   - VF-SYS-005
 title_reward: "Run Archivist I"
 created: 2026-05-10
+completed_on: 2026-05-10
 due:
-progress_current: 0
+progress_current: 6
 progress_target: 6
 quest_type: manual
 xp4l_rule_id: vaultforge-six-hour-workflow-b-reconciliation
@@ -28,30 +29,30 @@ tags:
 The last six-hour VaultForge wave left a trail of commits, run packets, hard gates, business decisions, engine evidence, and XP4L residue. Walk the relay from raw evidence to clean handoff: prove what changed, keep the closed gates closed, and leave the next operator with one route through the dust instead of a stack of half-read signals.
 
 ## Tasks
-- [ ] Gather the six-hour evidence
-  - [ ] Compare `git log --since='6 hours ago'` against the recent `runs/workflow-b/` packet folders.
-  - [ ] Record the four root commits in scope: `073b0c0`, `15aa39f`, `31d14dd`, and `a667192`.
-  - [ ] Note non-commit events: operator plugin timestamps, processed XP4L inbox event, and dirty nested `vaultforge-xp4l` state.
-- [ ] Verify Workflow B control surface changes
-  - [ ] Review `HARD_GATES.md` and confirm unresolved gates still default to stop/report.
-  - [ ] Check `MULTI_AGENT_WORKFLOW_B.md`, `workflow_b.md`, and `workflow_b_controller.py` for the recorded Workflow B changes.
-  - [ ] Keep the resume-command caveat visible until `--execute`, `--commit-mode review`, and `--hard-gate-mode switch-safe` emission is repaired.
-- [ ] Close the engine verification track
-  - [ ] Read `vaultforge-engine/SIGN_UP.md` and `vaultforge-engine/VERIFICATION.md`.
-  - [ ] Confirm the engine cycles stayed evidence-only and did not implement the contact-sheet renderer.
-  - [ ] Preserve the `#live-required` gate for real sidecar evidence or an approved fixture strategy.
-- [ ] Close the business decision track
-  - [ ] Read `vaultforge-business/BUSINESS_PAID_LAUNCH_DECISION_NOTE.md`.
-  - [ ] Confirm the paid launch decision remains a 0/1 Nath choice, not an approval by implication.
-  - [ ] Check business `README.md`, `NATH_START.md`, `TASKS.md`, `CHANGELOG.md`, and `SIGN_UP.md` for the handoff links.
-- [ ] Reconcile XP4L and event residue
-  - [ ] Inspect the processed inbox event from `processed/inbox/events/`.
-  - [ ] Inspect nested `vaultforge-xp4l` dirty files and decide whether they are current work, prior residue, or a separate follow-up.
-  - [ ] Keep non-dry-run live `E:\XP4Life` materialization gated unless a specific run is approved.
-- [ ] Write the final handoff path
-  - [ ] Summarize what is proven, what is still dirty, and what gates remain blocked.
-  - [ ] Split any implementation or cleanup still needed into lane-owned follow-up tasks.
-  - [ ] Point the next Workflow B run at either the resume-command repair or a clearly approved docs-only/dry-run slice.
+- [x] Gather the six-hour evidence
+  - [x] Compare `git log --since='6 hours ago'` against the recent `runs/workflow-b/` packet folders.
+  - [x] Record the four root commits in scope: `073b0c0`, `15aa39f`, `31d14dd`, and `a667192`.
+  - [x] Note non-commit events: operator plugin timestamps, processed XP4L inbox event, and dirty nested `vaultforge-xp4l` state.
+- [x] Verify Workflow B control surface changes
+  - [x] Review `HARD_GATES.md` and confirm unresolved gates still default to stop/report.
+  - [x] Check `MULTI_AGENT_WORKFLOW_B.md`, `workflow_b.md`, and `workflow_b_controller.py` for the recorded Workflow B changes.
+  - [x] Keep the resume-command caveat visible until `--execute`, `--commit-mode review`, and `--hard-gate-mode switch-safe` emission is repaired.
+- [x] Close the engine verification track
+  - [x] Read `vaultforge-engine/SIGN_UP.md` and `vaultforge-engine/VERIFICATION.md`.
+  - [x] Confirm the engine cycles stayed evidence-only and did not implement the contact-sheet renderer.
+  - [x] Preserve the `#live-required` gate for real sidecar evidence or an approved fixture strategy.
+- [x] Close the business decision track
+  - [x] Read `vaultforge-business/BUSINESS_PAID_LAUNCH_DECISION_NOTE.md`.
+  - [x] Confirm the paid launch decision remains a 0/1 Nath choice, not an approval by implication.
+  - [x] Check business `README.md`, `NATH_START.md`, `TASKS.md`, `CHANGELOG.md`, and `SIGN_UP.md` for the handoff links.
+- [x] Reconcile XP4L and event residue
+  - [x] Inspect the processed inbox event from `processed/inbox/events/`.
+  - [x] Inspect nested `vaultforge-xp4l` dirty files and decide whether they are current work, prior residue, or a separate follow-up.
+  - [x] Keep non-dry-run live `E:\XP4Life` materialization gated unless a specific run is approved.
+- [x] Write the final handoff path
+  - [x] Summarize what is proven, what is still dirty, and what gates remain blocked.
+  - [x] Split any implementation or cleanup still needed into lane-owned follow-up tasks.
+  - [x] Point the next Workflow B run at either the resume-command repair or a clearly approved docs-only/dry-run slice.
 
 ## Task Order Map
 ```dataviewjs
@@ -237,5 +238,10 @@ dv.paragraph("```mermaid\n" + chart + "\n```");
 
 ## Notes
 - This is a hand-authored active quest generated from repo evidence inspected on 2026-05-10.
-- It intentionally does not mark the six-hour work complete; completion requires the checklist proof and a final handoff.
+- Deep scan 2026-05-10: current six-hour `git log` now shows later consolidation commit `ca86f72` plus scoped commits `c0e2d37` and `4e59f85`; the quest's older commit IDs are preserved as source evidence in the note and run packet history. Recent Workflow B packets under `runs/workflow-b/` remain readable.
+- `HARD_GATES.md` exists and uses `default_if_blank: stop/report before acting`; current blockers still include the resume-command caveat, `HG-008:0` for XP4L scoring/progression, and named-scope requirements for live/API/materialization work.
+- Engine evidence in `vaultforge-engine/SIGN_UP.md` and `VERIFICATION.md` repeatedly confirms evidence-only cycles, passing checks, empty gallery/index checks, and no contact-sheet renderer implementation.
+- Business evidence in `vaultforge-business/BUSINESS_PAID_LAUNCH_DECISION_NOTE.md` and `SIGN_UP.md` confirms the paid launch note is a decision surface, not an approval by implication.
+- XP4L residue is real and separate: root status shows dirty nested `vaultforge-xp4l`; nested status shows `CHANGELOG.md`, `README.md`, `SIGN_UP.md`, `TASKS.md`, and untracked `VAULT_OUTPUT_SHAPE.md`. Treat that as a lane-owned follow-up, not silent completion.
+- Next route: fix `root-workflow-b-resume-execute-flag`, or run a clearly named docs-only/dry-run lane slice. Keep live vault writes, scoring/progression changes, paid/API work, public launch, asset operations, target writes, and engine registry expansion gated unless explicitly approved.
 - No repo source file was changed by this quest note.

@@ -22,7 +22,7 @@ tags:
 Make the quest system feel alive by connecting tasks, YAML state, and reward logic into a repeatable operating flow.
 
 ## Tasks
-- [ ] Define quest status rules
+- [x] Define quest status rules ✅ 2026-05-10
 - [ ] Define achievement claim rules
 - [x] Test one full quest completion flow ✅ 2026-04-11
 - [ ] Review dashboard updates after a reward claim

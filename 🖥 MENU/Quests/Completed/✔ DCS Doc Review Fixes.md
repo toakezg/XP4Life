@@ -1,16 +1,16 @@
 ---
 quest_id: QST-DCS-DOC-REVIEW-FIXES
-name: "DCS Doc Review Fixes"
-status: active
+name: DCS Doc Review Fixes
+status: completed
 category: system
 tier: rare
 xp_reward: 280
 achievement_unlocks:
   - DCS-SYS-001
-title_reward: "Coordinate Smith I"
+title_reward: Coordinate Smith I
 created: 2026-05-10
 due:
-progress_current: 0
+progress_current: 6
 progress_target: 6
 quest_type: manual
 xp4l_rule_id: dcs-doc-review-fixes
@@ -20,6 +20,7 @@ tags:
   - dcs
   - codex
   - xp4l
+completed_on: 2026-05-10
 ---
 # DCS Doc Review Fixes
 
@@ -27,31 +28,31 @@ tags:
 The DCS document forge is awake, but the review found weak bolts in the frame: draft output can still masquerade as a finished document, mode promises overlap, source intake is thin, and path handling can misread intent. Walk the findings in order, harden the skill, and leave proof that `$dcs-doc` now produces either an honest frame or a completed topic document with no scaffold residue.
 
 ## Tasks
-- [ ] Add a deterministic final validation gate
-  - [ ] Create or specify a validation helper that fails on unfinished draft markers and scaffold phrases.
-  - [ ] Make the `$dcs-doc` workflow require the validator before final delivery in `write` and layer modes.
-  - [ ] Confirm the validator ignores explicit bad-example blocks or documents how to handle those examples.
-- [ ] Split mode-specific output contracts
-  - [ ] Separate `write` requirements from `seed`, `core`, `relations`, `structure`, `operation`, `transformation`, `expansion`, `projection`, `map`, and `rcs` requirements.
-  - [ ] Remove the contradiction where layer modes are expected to include all `0.0.0` through `7.0.0` sections.
-  - [ ] Verify `progress_target`-style expectations map to the actual top-level coordinate groups for each mode.
-- [ ] Add a source and context intake path
-  - [ ] Decide whether `$dcs-doc` should support `--source`, `--notes`, or a documented manual source-gathering step.
-  - [ ] Define what Codex should do when no source exists: ask for material, inspect local context, or write an assumptions section.
-  - [ ] Test the flow on a topic that needs real evidence rather than general model knowledge.
-- [ ] Harden output path semantics
-  - [ ] Decide whether to split `--output-dir` and `--output-file`.
-  - [ ] Fix or document the case where a directory-like name with a suffix, such as `v1.0`, could be treated as a file.
-  - [ ] Confirm directory output, named file output, and non-`write` mode suffixes still behave as intended.
-- [ ] Align README, reference, and skill instructions
-  - [ ] Update `SKILL.md`, `references/dcs-reference.md`, and `F:\toakezg\skills-readme\DCS\dcs-doc-README.md` with the same final contract.
-  - [ ] Keep the human README concise while still pointing to the required validation command or helper.
-  - [ ] Confirm no active docs still imply the helper script alone completes `write` mode.
-- [ ] Prove the repaired `$dcs-doc` behavior
-  - [ ] Run skill validation with `quick_validate.py`.
-  - [ ] Run Python syntax validation for helper scripts.
-  - [ ] Generate a sample `write` document and prove final output has no unfinished draft markers or scaffold phrases.
-  - [ ] Generate at least one layer mode and one `rcs` or `map` mode to prove mode contracts do not collide.
+- [x] Add a deterministic final validation gate ✅ 2026-05-10
+  - [x] Create or specify a validation helper that fails on unfinished draft markers and scaffold phrases. ✅ 2026-05-10
+  - [x] Make the `$dcs-doc` workflow require the validator before final delivery in `write` and layer modes. ✅ 2026-05-10
+  - [x] Confirm the validator ignores explicit bad-example blocks or documents how to handle those examples. ✅ 2026-05-10
+- [x] Split mode-specific output contracts ✅ 2026-05-10
+  - [x] Separate `write` requirements from `seed`, `core`, `relations`, `structure`, `operation`, `transformation`, `expansion`, `projection`, `map`, and `rcs` requirements. ✅ 2026-05-10
+  - [x] Remove the contradiction where layer modes are expected to include all `0.0.0` through `7.0.0` sections. ✅ 2026-05-10
+  - [x] Verify `progress_target`-style expectations map to the actual top-level coordinate groups for each mode. ✅ 2026-05-10
+- [x] Add a source and context intake path ✅ 2026-05-10
+  - [x] Decide whether `$dcs-doc` should support `--source`, `--notes`, or a documented manual source-gathering step. ✅ 2026-05-10
+  - [x] Define what Codex should do when no source exists: ask for material, inspect local context, or write an assumptions section. ✅ 2026-05-10
+  - [x] Test the flow on a topic that needs real evidence rather than general model knowledge. ✅ 2026-05-10
+- [x] Harden output path semantics ✅ 2026-05-10
+  - [x] Decide whether to split `--output-dir` and `--output-file`. ✅ 2026-05-10
+  - [x] Fix or document the case where a directory-like name with a suffix, such as `v1.0`, could be treated as a file. ✅ 2026-05-10
+  - [x] Confirm directory output, named file output, and non-`write` mode suffixes still behave as intended. ✅ 2026-05-10
+- [x] Align README, reference, and skill instructions ✅ 2026-05-10
+  - [x] Update `SKILL.md`, `references/dcs-reference.md`, and `F:\toakezg\skills-readme\DCS\dcs-doc-README.md` with the same final contract. ✅ 2026-05-10
+  - [x] Keep the human README concise while still pointing to the required validation command or helper. ✅ 2026-05-10
+  - [x] Confirm no active docs still imply the helper script alone completes `write` mode. ✅ 2026-05-10
+- [x] Prove the repaired `$dcs-doc` behavior ✅ 2026-05-10
+  - [x] Run skill validation with `quick_validate.py`. ✅ 2026-05-10
+  - [x] Run Python syntax validation for helper scripts. ✅ 2026-05-10
+  - [x] Generate a sample `write` document and prove final output has no unfinished draft markers or scaffold phrases. ✅ 2026-05-10
+  - [x] Generate at least one layer mode and one `rcs` or `map` mode to prove mode contracts do not collide. ✅ 2026-05-10
 
 ## Task Order Map
 ```dataviewjs
@@ -212,3 +213,5 @@ dv.paragraph("```mermaid\n" + chart + "\n```");
 ## Notes
 - Hand-authored from the review findings using `$create-quest-from-workflow`.
 - The workflow graph is embedded above and should stay aligned with the top-level task groups.
+- Deep scan 2026-05-10: `C:\Users\natha\.codex\skills\dcs-doc\SKILL.md` now includes a required final scan pattern for `DRAFT FILL REQUIRED`, scaffold phrases, and bare `Role:` text, and says matches outside explicit bad-example blocks must be edited before delivery. `references/dcs-reference.md` also records the anti-scaffold and full-documentation rule.
+- Completed 2026-05-10: added `scripts/validate_dcs_doc.py`; added `--output-file`, `--source`, and `--notes`; hardened `--output-dir` so suffix-like directories such as `v1.0` remain directories; split mode contracts in the skill, reference, and README; validated final `Codex Skills` output; generated relation, `rcs`, and `map` mode files without collisions.

@@ -24,8 +24,8 @@ Ship one useful tool or script that solves a real problem and gets used more tha
 ## Tasks
 - [x] Choose one repetitive problem worth solving ✅ 2026-05-02
 - [x] Build the smallest useful script or helper ✅ 2026-05-02
-- [ ] Test it on a real task
-- [ ] Use it at least three separate times
+- [x] Test it on a real task ✅ 2026-05-10
+- [x] Use it at least three separate times ✅ 2026-05-10
 - [ ] Document what it saves or improves
 
 ## Rewards

@@ -11,7 +11,7 @@ achievement_unlocks:
 title_reward: "Gatekeeper I"
 created: 2026-05-10
 due:
-progress_current: 0
+progress_current: 4
 progress_target: 8
 quest_type: manual
 xp4l_rule_id: vaultforge-decision-relay
@@ -28,26 +28,26 @@ tags:
 The VaultForge lanes are lit, but the gates still need names, proofs, and clean handoffs. Walk the relay from business priority to final task-board sync: decide what is ready, keep the protected switches closed, and turn every loose thread into a next action that another operator can follow without drift.
 
 ## Tasks
-- [ ] Confirm the VaultForge preflight state
+- [x] Confirm the VaultForge preflight state
   - [x] Read `F:\vaultforge\NATH_TASKS_STEP_GUIDE_10-05-26.md` ✅ 2026-05-10
-  - [ ] Check root dirty state and known Workflow B resume flag issue
-  - [ ] Keep hard gates closed for pricing, licensing, publication, live generation, paid/API use, asset moves, target writes, folder icon application, and engine registry migration
+  - [x] Check root dirty state and known Workflow B resume flag issue
+  - [x] Keep hard gates closed for pricing, licensing, publication, live generation, paid/API use, asset moves, target writes, folder icon application, and engine registry migration
 - [ ] Convert the old business priority note into current business tasks
   - [ ] Confirm whether `vaultforge-business` is the current priority lane
   - [ ] Replace vague "business goals" language with the current goal stack
   - [ ] Close or park the old note only after the replacement task shape is clear
-- [ ] Open or refresh the business thread
-  - [ ] Name the next milestone
-  - [ ] Keep the thread scoped to Nath-facing decision surfaces
-  - [ ] Update `vaultforge-business\SIGN_UP.md` with the handoff
-- [ ] Draft the paid launch decision note
-  - [ ] Record what is ready now: intake, prompt bank, wrappers, review flow, contact sheets, gallery, delivery skeleton, and service catalog
-  - [ ] Record what is not ready yet: legal language, license terms, public pricing, trademark claims, full automation, and broad print promises
-  - [ ] Present launch posture choices without treating any option as approved
-- [ ] Decide fragment ownership and registry shape
-  - [ ] Review `BUSINESS_FRAGMENT_LIBRARY_CANDIDATES.md`
-  - [ ] Decide between business-local mappings, lane-aware aliases, production constraints, or stable styles only
-  - [ ] Keep `business-fragment-library-move` blocked until the registry decision is explicit
+- [x] Open or refresh the business thread
+  - [x] Name the next milestone
+  - [x] Keep the thread scoped to Nath-facing decision surfaces
+  - [x] Update `vaultforge-business\SIGN_UP.md` with the handoff
+- [x] Draft the paid launch decision note
+  - [x] Record what is ready now: intake, prompt bank, wrappers, review flow, contact sheets, gallery, delivery skeleton, and service catalog
+  - [x] Record what is not ready yet: legal language, license terms, public pricing, trademark claims, full automation, and broad print promises
+  - [x] Present launch posture choices without treating any option as approved
+- [x] Decide fragment ownership and registry shape
+  - [x] Review `BUSINESS_FRAGMENT_LIBRARY_CANDIDATES.md`
+  - [x] Decide between business-local mappings, lane-aware aliases, production constraints, or stable styles only
+  - [x] Keep `business-fragment-library-move` blocked until the registry decision is explicit
 - [ ] Record the Gallable proposal decision
   - [ ] Review the generated PNG, proposal note, and run log
   - [ ] Choose accept for size check, reroll, reject/park, or separate target apply task
@@ -185,3 +185,8 @@ dv.paragraph("```mermaid\n" + chart + "\n```");
 
 ## Notes
 - This is a hand-authored quest. It follows the XP4Life quest surface and keeps generated XP4L output separate.
+- Deep scan 2026-05-10: preflight was verified against root `git status`, `HARD_GATES.md`, `NATH_TASKS_STEP_GUIDE_10-05-26.md`, and the known Workflow B resume-command caveat.
+- Business thread refresh is evidenced by `vaultforge-business/NATH_START.md`, `README.md`, and `SIGN_UP.md`, including the paid-launch decision note handoff and next-step framing.
+- Paid launch decision note is complete as a decision surface at `vaultforge-business/BUSINESS_PAID_LAUNCH_DECISION_NOTE.md`; it names ready/not-ready surfaces and keeps pricing, licensing, publication, and live/API generation as explicit decisions.
+- Fragment ownership has a scoped answer in the current engine/business bridge: engine commit `c0e2d37` and business commit `4e59f85` support approved business-facing aliases and production constraints while keeping remaining business-only fragments lane-owned unless later approved.
+- Still open: old business-priority note conversion, Gallable taste decision, `#active`/schedule rule, and final task-board closure.
