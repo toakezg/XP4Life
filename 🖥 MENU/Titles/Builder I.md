@@ -1,11 +1,11 @@
 ---
 title_id: TTL-002
-name: "Builder I"
-unlock_condition: "Ship a working script, tool, or quest engine component that solves a real problem."
+name: Builder I
+unlock_condition: Ship a working script, tool, or quest engine component that solves a real problem.
 category: build
 tier: uncommon
-description: "Recognizes the first reliable proof of building capability."
-unlocked: false
+description: Recognizes the first reliable proof of building capability.
+unlocked: true
 unlocked_on:
 linked_achievements:
   - VF-BLD-001

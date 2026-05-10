@@ -6,7 +6,7 @@ reward_name: "Apprentice Cache"
 reward_type: title
 rarity: common
 reason: "Reached 400 cumulative XP"
-awarded_on: 2026-04-17
+awarded_on: 2026-04-30
 tags:
   - xp4l
   - reward

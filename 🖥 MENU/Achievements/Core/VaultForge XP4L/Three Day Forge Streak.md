@@ -28,7 +28,7 @@ tags:
 Keep the forge lit across multiple distinct days of real work in the current interpreted batch.
 
 ## Progress
-- Current Count: 2/3
+- Current Count: 0/3
 - Unlocked: false
 - Reward XP Claimed This Run: 0
 
@@ -40,10 +40,7 @@ Keep the forge lit across multiple distinct days of real work in the current int
 - Streak Ember
 
 ## Proof
-- [[Systems/XP4L/Logs/2026-04-16/live-doc-pass-20260416-01|live-doc-pass-20260416-01]]
-- [[Systems/XP4L/Logs/2026-04-17/live-output-align-20260417-01|live-output-align-20260417-01]]
-- [[Systems/XP4L/Logs/2026-04-17/live-validation-batch-20260417-01|live-validation-batch-20260417-01]]
-- [[Systems/XP4L/Logs/2026-04-17/live-doc-contract-20260417-01|live-doc-contract-20260417-01]]
+- Waiting on matching activity.
 
 ## Notes
 - This note is managed by VaultForge XP4L.

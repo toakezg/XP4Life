@@ -12,8 +12,8 @@ rewards:
   - "+500 XP"
   - "Architect's Sigil"
 xp_bonus: 500
-unlocked: true
-unlocked_on: 2026-04-17
+unlocked: false
+unlocked_on:
 linked_quests: []
 xp4l_rule_id: engine-architect-i
 xp4l_generated: true
@@ -28,8 +28,8 @@ tags:
 Ship a real systems integration that makes the VaultForge stack more capable.
 
 ## Progress
-- Current Count: 3/1
-- Unlocked: true
+- Current Count: 0/1
+- Unlocked: false
 - Reward XP Claimed This Run: 0
 
 ## Criteria
@@ -40,9 +40,7 @@ Ship a real systems integration that makes the VaultForge stack more capable.
 - Architect's Sigil
 
 ## Proof
-- [[Systems/XP4L/Logs/2026-04-16/live-doc-pass-20260416-01|live-doc-pass-20260416-01]]
-- [[Systems/XP4L/Logs/2026-04-17/live-output-align-20260417-01|live-output-align-20260417-01]]
-- [[Systems/XP4L/Logs/2026-04-17/live-doc-contract-20260417-01|live-doc-contract-20260417-01]]
+- Waiting on matching activity.
 
 ## Notes
 - This note is managed by VaultForge XP4L.

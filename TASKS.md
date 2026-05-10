@@ -3,7 +3,7 @@ tags:
   - core
   - tasks
 ---
-# TASKS
+#  TASKS
 
 ## Active
 - [ ] Decide whether Recovery Pack content lands before or after the first baseline commit. 2026-04-14 #task #recovery #git-ready

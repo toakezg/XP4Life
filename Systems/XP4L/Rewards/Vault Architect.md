@@ -6,7 +6,7 @@ reward_name: "Vault Architect"
 reward_type: title
 rarity: epic
 reason: "Reached 1800 cumulative XP"
-awarded_on: 2026-04-17
+awarded_on: 2026-04-30
 tags:
   - xp4l
   - reward

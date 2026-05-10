@@ -5,7 +5,7 @@ unlock_condition: Am Git Ready
 category: system
 tier: common
 description: Gone from Not a Ready Man, To A Ready Man, no, THEE Ready Man!
-unlocked: false
+unlocked: true
 unlocked_on:
 linked_achievements:
   - ACH-001

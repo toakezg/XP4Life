@@ -1,134 +1,1650 @@
 {
   "achievements": {
     "engine-architect-i": {
-      "matched_days": [
-        "2026-04-16",
-        "2026-04-17"
-      ],
-      "matched_event_ids": [
-        "live-doc-pass-20260416-01",
-        "live-output-align-20260417-01",
-        "live-doc-contract-20260417-01"
-      ],
-      "reward_xp_claimed": true,
-      "unlocked": true,
-      "unlocked_on": "2026-04-17"
+      "matched_days": [],
+      "matched_event_ids": [],
+      "reward_xp_claimed": false,
+      "unlocked": false,
+      "unlocked_on": ""
     },
     "three-day-streak": {
-      "matched_days": [
-        "2026-04-16",
-        "2026-04-17"
-      ],
-      "matched_event_ids": [
-        "live-doc-pass-20260416-01",
-        "live-output-align-20260417-01",
-        "live-validation-batch-20260417-01",
-        "live-doc-contract-20260417-01"
-      ],
+      "matched_days": [],
+      "matched_event_ids": [],
       "reward_xp_claimed": false,
       "unlocked": false,
       "unlocked_on": ""
     }
   },
   "events": {
-    "icon_loop_run-20260417-03": {
-      "action": "generate_icon_batch",
-      "category": "creative_output",
-      "day": "2026-04-17",
-      "event_id": "icon_loop_run-20260417-03",
-      "event_type": "batch.completed",
-      "source": "vaultforge-art",
-      "timestamp": "2026-04-17T02:15:00+10:00",
-      "xp_awarded": 260
-    },
-    "live-doc-contract-20260417-01": {
-      "action": "document_live_validation",
-      "category": "system_integration",
-      "day": "2026-04-17",
-      "event_id": "live-doc-contract-20260417-01",
-      "event_type": "task.completed",
+    "vaultforge-20260509T211407-workflow-b-controller": {
+      "action": "implemented Workflow B controller and run packet scaffolding",
+      "category": "coding",
+      "day": "2026-05-09",
+      "event_id": "vaultforge-20260509T211407-workflow-b-controller",
+      "event_type": "task_completed",
       "source": "vaultforge-code",
-      "timestamp": "2026-04-17T02:26:00+10:00",
-      "xp_awarded": 106
+      "timestamp": "2026-05-09T21:14:07+10:00",
+      "xp_awarded": 50
     },
-    "live-doc-pass-20260416-01": {
-      "action": "review_xp4life_vault",
-      "category": "system_integration",
-      "day": "2026-04-16",
-      "event_id": "live-doc-pass-20260416-01",
-      "event_type": "task.completed",
+    "vaultforge-20260510T000410-workflow-b-verification-controls": {
+      "action": "verified Workflow B budget gate timebox checkpoint and cancellation controls",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-20260510T000410-workflow-b-verification-controls",
+      "event_type": "task_completed",
       "source": "vaultforge-code",
-      "timestamp": "2026-04-16T23:08:00+10:00",
-      "xp_awarded": 94
+      "timestamp": "2026-05-10T00:04:10+10:00",
+      "xp_awarded": 52
     },
-    "live-output-align-20260417-01": {
-      "action": "align_obsidian_output",
-      "category": "system_integration",
-      "day": "2026-04-17",
-      "event_id": "live-output-align-20260417-01",
-      "event_type": "task.completed",
+    "vaultforge-20260510T005047-engine-dryrun-safety": {
+      "action": "hardened engine dry-run safety and live-required evidence gates",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-20260510T005047-engine-dryrun-safety",
+      "event_type": "task_completed",
       "source": "vaultforge-code",
-      "timestamp": "2026-04-17T01:48:00+10:00",
-      "xp_awarded": 142
+      "timestamp": "2026-05-10T00:50:47+10:00",
+      "xp_awarded": 52
     },
-    "live-validation-batch-20260417-01": {
-      "action": "run_validation_suite",
-      "category": "code_automation",
-      "day": "2026-04-17",
-      "event_id": "live-validation-batch-20260417-01",
-      "event_type": "batch.completed",
+    "vaultforge-20260510T005511-icon-media-style-gate": {
+      "action": "kept icon media style proposal inactive with reviewed gate evidence",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-20260510T005511-icon-media-style-gate",
+      "event_type": "task_completed",
       "source": "vaultforge-code",
-      "timestamp": "2026-04-17T02:02:00+10:00",
-      "xp_awarded": 174
+      "timestamp": "2026-05-10T00:55:11+10:00",
+      "xp_awarded": 52
     },
-    "live-validation-batch-20260417-02": {
-      "action": "run_validation_suite",
-      "category": "code_automation",
-      "day": "2026-04-17",
-      "event_id": "live-validation-batch-20260417-02",
-      "event_type": "batch.completed",
+    "vaultforge-20260510T011344-xp4l-boundaries-output-shape": {
+      "action": "clarified XP4L boundaries rules surfaces and vault output shape",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-20260510T011344-xp4l-boundaries-output-shape",
+      "event_type": "task_completed",
       "source": "vaultforge-code",
-      "timestamp": "2026-04-17T02:07:00+10:00",
-      "xp_awarded": 174
+      "timestamp": "2026-05-10T01:13:44+10:00",
+      "xp_awarded": 52
     },
-    "live-validation-batch-20260417-03": {
-      "action": "run_validation_suite",
-      "category": "code_automation",
-      "day": "2026-04-17",
-      "event_id": "live-validation-batch-20260417-03",
-      "event_type": "batch.completed",
+    "vaultforge-20260510T011758-cross-lane-reviewed-slices": {
+      "action": "closed reviewed Workflow B section slices across engine business icon and XP4L",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-20260510T011758-cross-lane-reviewed-slices",
+      "event_type": "task_completed",
       "source": "vaultforge-code",
-      "timestamp": "2026-04-17T02:15:00+10:00",
-      "xp_awarded": 194
+      "timestamp": "2026-05-10T01:17:58+10:00",
+      "xp_awarded": 52
+    },
+    "vaultforge-20260510T020610-business-client-ready-docs": {
+      "action": "advanced business lane client-ready docs and operator start note",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-20260510T020610-business-client-ready-docs",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T02:06:10+10:00",
+      "xp_awarded": 52
+    },
+    "vaultforge-20260510T021000-nath-last12-handoff": {
+      "action": "created Nath-facing last-12-hours repo handoff and task step guide",
+      "category": "coding",
+      "day": "2026-05-10",
+      "event_id": "vaultforge-20260510T021000-nath-last12-handoff",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-10T02:10:00+10:00",
+      "xp_awarded": 52
+    },
+    "vaultforge-business-created-vaultforge-done-to-xp4life-relay-workflow-note-20260509-212637": {
+      "action": "created VaultForge Done-To-XP4Life Relay workflow note",
+      "category": "workflow",
+      "day": "2026-05-09",
+      "event_id": "vaultforge-business-created-vaultforge-done-to-xp4life-relay-workflow-note-20260509-212637",
+      "event_type": "task_completed",
+      "source": "vaultforge-business",
+      "timestamp": "2026-05-09T21:26:37+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-business-paid-launch-decision-note-20260509-202125": {
+      "action": "documented paid launch decision note for vaultforge-business",
+      "category": "business",
+      "day": "2026-05-09",
+      "event_id": "vaultforge-business-paid-launch-decision-note-20260509-202125",
+      "event_type": "task_completed",
+      "source": "vaultforge-business",
+      "timestamp": "2026-05-09T20:21:25+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-added-approved-git-safe.directory-entries-for-the-core-f-reposit-20260501-035529": {
+      "action": "Added approved Git safe.directory entries for the core F: repositories and verified git status passes for each root #git #vaultforge #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-added-approved-git-safe.directory-entries-for-the-core-f-reposit-20260501-035529",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:29+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-added-git-safe.directory-trust-for-f-tools-image_generation-vaul-20260501-035602": {
+      "action": "Added Git safe.directory trust for F:\\tools\\image_generation\\vaultforge-art and verified its origin fetch dry-run passed #git #vaultforge #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-added-git-safe.directory-trust-for-f-tools-image_generation-vaul-20260501-035602",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:56:02+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-added-per-lane-workdir-handling-and-exit-code-preservation-to-un-20260501-035541": {
+      "action": "Added per-lane WORKDIR handling and exit-code preservation to UNIVERSAL.bat while preserving the existing launcher style #vaultforge #coding #automation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-added-per-lane-workdir-handling-and-exit-code-preservation-to-un-20260501-035541",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:41+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-analyzed-198-fractal-dashboard-copies-20260430-190452": {
+      "action": "Analyzed 198-fractal-dashboard copies.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-analyzed-198-fractal-dashboard-copies-20260430-190452",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:52+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-analyzed-invoice-reader-family-and-identified-f-projects-invoice-20260430-190448": {
+      "action": "Analyzed invoice reader family and identified F:\\projects\\invoice_reader_project as likely active/canonical.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-analyzed-invoice-reader-family-and-identified-f-projects-invoice-20260430-190448",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:48+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-analyzed-n8n-copies-and-identified-f-systems-n8n-as-canonical-li-20260430-190444": {
+      "action": "Analyzed n8n copies and identified F:\\systems\\n8n as canonical live system.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-analyzed-n8n-copies-and-identified-f-systems-n8n-as-canonical-li-20260430-190444",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:44+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-analyzed-yt_dlp_downloader-copies-and-identified-f-projects-yt_d-20260430-190440": {
+      "action": "Analyzed yt_dlp_downloader copies and identified F:\\projects\\yt_dlp_downloader as likely canonical.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-analyzed-yt_dlp_downloader-copies-and-identified-f-projects-yt_d-20260430-190440",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:40+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-audited-git-trust-remotes-branch-state-dirty-state-and-backup-ex-20260501-035601": {
+      "action": "Audited Git trust, remotes, branch state, dirty state, and backup exposure for seven target repositories #git #backup #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-audited-git-trust-remotes-branch-state-dirty-state-and-backup-ex-20260501-035601",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:56:01+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-captured-post-safe-directory-git-status-snapshots-for-vaultforge-20260501-035530": {
+      "action": "Captured post-safe-directory Git status snapshots for VaultForge, vaultforge-xp4l, .4, XP4Life, and the ecosystem control plane #git #vaultforge #docs",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-captured-post-safe-directory-git-status-snapshots-for-vaultforge-20260501-035530",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:30+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-carried-forward-backup-before-path-refactor-requirement-20260430-190439": {
+      "action": "Carried forward backup-before-path-refactor requirement.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-carried-forward-backup-before-path-refactor-requirement-20260430-190439",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:39+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-carried-forward-path-refactor-guardrails-tag-files-live-doc-gene-20260430-190437": {
+      "action": "Carried forward path-refactor guardrails: tag files LIVE / DOC / GENERATED / SNAPSHOT before editing.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-carried-forward-path-refactor-guardrails-tag-files-live-doc-gene-20260430-190437",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:37+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-carried-forward-runtime-first-path-refactor-order-launchers-pyth-20260430-190438": {
+      "action": "Carried forward runtime-first path-refactor order: launchers, Python entrypoints, configs, docs, generated output only if proven live.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-carried-forward-runtime-first-path-refactor-order-launchers-pyth-20260430-190438",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:38+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-checked-node---version-v24.15.0-20260430-190529": {
+      "action": "Checked node --version: v24.15.0.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-checked-node---version-v24.15.0-20260430-190529",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:29+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-checked-python---version-python-3.14.4-20260430-190528": {
+      "action": "Checked python --version: Python 3.14.4.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-checked-python---version-python-3.14.4-20260430-190528",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:28+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-checked-run.bat-for-old-hardcoded-paths-and-found-none-20260430-190536": {
+      "action": "Checked run.bat for old hardcoded paths and found none.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-checked-run.bat-for-old-hardcoded-paths-and-found-none-20260430-190536",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:36+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-checked-run.ps1-for-old-hardcoded-paths-and-found-none-20260430-190537": {
+      "action": "Checked run.ps1 for old hardcoded paths and found none.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-checked-run.ps1-for-old-hardcoded-paths-and-found-none-20260430-190537",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:37+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-classified-local-only-committed-work-in-.4-vaultforge-vaultforge-20260501-035604": {
+      "action": "Classified local-only committed work in .4, VaultForge, vaultforge-xp4l, vaultforge-ecosystem, openai, and gallable-html as needing backup protection #git #backup #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-classified-local-only-committed-work-in-.4-vaultforge-vaultforge-20260501-035604",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:56:04+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-committed-control-plane-path-sync-updates-in-vaultforge-ecosyste-20260501-035548": {
+      "action": "Committed control-plane path sync updates in vaultforge-ecosystem, vaultforge-xp4l, and openai repositories #vaultforge #docs #commit",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-committed-control-plane-path-sync-updates-in-vaultforge-ecosyste-20260501-035548",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:48+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-committed-courier-retargeting-as-4c7bd93-retarget-dot4-courier-t-20260501-035555": {
+      "action": "Committed courier retargeting as 4c7bd93 Retarget dot4 courier to XP4L adapter #dot4 #xp4l #commit",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-committed-courier-retargeting-as-4c7bd93-retarget-dot4-courier-t-20260501-035555",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:55+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-committed-gallable-active-path-confirmation-as-525fc74-confirm-a-20260501-035556": {
+      "action": "Committed Gallable active-path confirmation as 525fc74 Confirm active Gallable path #gallable #docs #commit",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-committed-gallable-active-path-confirmation-as-525fc74-confirm-a-20260501-035556",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:56+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-committed-the-run-14-held-courier-dry-run-event-as-19c55de-recor-20260501-035600": {
+      "action": "Committed the Run 14 held courier dry-run event as 19c55de Record Run 14 courier dry-run event #dot4 #xp4l #commit",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-committed-the-run-14-held-courier-dry-run-event-as-19c55de-recor-20260501-035600",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:56:00+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-committed-the-stabilized-.4-xp4l-intake-queue-as-36b099d-stabili-20260501-035538": {
+      "action": "Committed the stabilized .4 XP4L intake queue as 36b099d Stabilize dot4 XP4L intake queue #dot4 #xp4l #commit",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-committed-the-stabilized-.4-xp4l-intake-queue-as-36b099d-stabili-20260501-035538",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:38+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-committed-the-vaultforge-universal-launcher-repair-as-d3b3eec-re-20260501-035544": {
+      "action": "Committed the VaultForge universal launcher repair as d3b3eec Repair VaultForge universal launcher #vaultforge #commit",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-committed-the-vaultforge-universal-launcher-repair-as-d3b3eec-re-20260501-035544",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:44+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-completed-duplicate-analysis-only-with-no-moves-no-deletes-and-n-20260430-190436": {
+      "action": "Completed duplicate analysis only, with no moves, no deletes, and no path refactors.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-completed-duplicate-analysis-only-with-no-moves-no-deletes-and-n-20260430-190436",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:36+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-canonical-already-had-configs-batch_natgeo.conf-20260430-190505": {
+      "action": "Confirmed canonical already had configs\\batch_NatGeo.conf.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-canonical-already-had-configs-batch_natgeo.conf-20260430-190505",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:05+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-canonical-path-f-projects-yt_dlp_downloader-20260430-190518": {
+      "action": "Confirmed canonical path: F:\\projects\\yt_dlp_downloader.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-canonical-path-f-projects-yt_dlp_downloader-20260430-190518",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:18+00:00",
+      "xp_awarded": 46
+    },
+    "vaultforge-code-confirmed-canonical-path-f-projects-yt_dlp_downloader-20260430-190545": {
+      "action": "Confirmed canonical path: F:\\projects\\yt_dlp_downloader.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-canonical-path-f-projects-yt_dlp_downloader-20260430-190545",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:45+00:00",
+      "xp_awarded": 46
+    },
+    "vaultforge-code-confirmed-configs-batch_natgeo.conf-exists-20260430-190526": {
+      "action": "Confirmed configs\\batch_NatGeo.conf exists.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-configs-batch_natgeo.conf-exists-20260430-190526",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:26+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-configs-batch_natgeo.tools-legacy.conf-exists-20260430-190527": {
+      "action": "Confirmed configs\\batch_NatGeo.tools-legacy.conf exists.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-configs-batch_natgeo.tools-legacy.conf-exists-20260430-190527",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:27+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-configs-preset_channel-videos.txt-exists-20260430-190525": {
+      "action": "Confirmed configs\\PRESET_channel-videos.txt exists.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-configs-preset_channel-videos.txt-exists-20260430-190525",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:25+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-downloader.py-exists-20260430-190521": {
+      "action": "Confirmed downloader.py exists.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-downloader.py-exists-20260430-190521",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:21+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-existing-.venv-python-was-stale-and-pointed-to-an-old--20260430-190532": {
+      "action": "Confirmed existing .venv Python was stale and pointed to an old Python 3.12 path.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-existing-.venv-python-was-stale-and-pointed-to-an-old--20260430-190532",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:32+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-existing-.venv-yt-dlp-executable-was-stale-broken-20260430-190533": {
+      "action": "Confirmed existing .venv yt-dlp executable was stale/broken.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-existing-.venv-yt-dlp-executable-was-stale-broken-20260430-190533",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:33+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-f-.4-inbox-events-is-the-correct-xp4l-adapter-inbox-to-20260501-035527": {
+      "action": "Confirmed F:\\.4\\inbox\\events is the correct XP4L adapter inbox to avoid recursive scanning of archive folders under F:\\.4\\inbox #dot4 #xp4l #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-confirmed-f-.4-inbox-events-is-the-correct-xp4l-adapter-inbox-to-20260501-035527",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:27+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-f-_backups-existed-but-had-no-local-bundle-mirror-or-e-20260501-035603": {
+      "action": "Confirmed F:\\_BACKUPS existed but had no local bundle, mirror, or exported Git backup before Run 16A #backup #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-confirmed-f-_backups-existed-but-had-no-local-bundle-mirror-or-e-20260501-035603",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:56:03+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-f-repos-was-left-alone-20260430-190434": {
+      "action": "Confirmed F:\\repos was left alone.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-f-repos-was-left-alone-20260430-190434",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:34+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-fresh-.venv-python-python-3.14.4-20260430-190548": {
+      "action": "Confirmed fresh .venv Python: Python 3.14.4.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-fresh-.venv-python-python-3.14.4-20260430-190548",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:48+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-fresh-.venv-source-path-c-users-natha-appdata-local-py-20260430-190549": {
+      "action": "Confirmed fresh .venv source path: C:\\Users\\natha\\AppData\\Local\\Python\\pythoncore-3.14-64.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-fresh-.venv-source-path-c-users-natha-appdata-local-py-20260430-190549",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:49+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-gallable-is-active-at-f-projects-gallable-html-with-.g-20260501-035553": {
+      "action": "Confirmed Gallable is active at F:\\projects\\gallable-html with .git, package.json, Electron scripts, and productName Gallable #gallable #validation #docs",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-confirmed-gallable-is-active-at-f-projects-gallable-html-with-.g-20260501-035553",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:53+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-global-python-had-no-yt_dlp-module-20260430-190531": {
+      "action": "Confirmed global Python had no yt_dlp module.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-global-python-had-no-yt_dlp-module-20260430-190531",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:31+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-no-deletes-no-archives-and-no-e-to-f-path-refactor-wer-20260430-190459": {
+      "action": "Confirmed no deletes, no archives, and no E:\\ to F:\\ path refactor were performed.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-no-deletes-no-archives-and-no-e-to-f-path-refactor-wer-20260430-190459",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:59+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-no-deletes-no-duplicate-folder-moves-no-path-refactors-20260430-190517": {
+      "action": "Confirmed no deletes, no duplicate folder moves, no path refactors, and no downloads.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-no-deletes-no-duplicate-folder-moves-no-path-refactors-20260430-190517",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:17+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-no-deletes-were-performed-20260430-190433": {
+      "action": "Confirmed no deletes were performed.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-no-deletes-were-performed-20260430-190433",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:33+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-no-duplicate-folder-moves-no-deletes-no-path-refactors-20260430-190544": {
+      "action": "Confirmed no duplicate folder moves, no deletes, no path refactors, and no downloads.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-no-duplicate-folder-moves-no-deletes-no-path-refactors-20260430-190544",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:44+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-no-duplicate-folders-were-moved-20260430-190458": {
+      "action": "Confirmed no duplicate folders were moved.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-no-duplicate-folders-were-moved-20260430-190458",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:58+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-package.json-exists-20260430-190520": {
+      "action": "Confirmed package.json exists.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-package.json-exists-20260430-190520",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:20+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-readme.md-exists-20260430-190519": {
+      "action": "Confirmed README.md exists.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-readme.md-exists-20260430-190519",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:19+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-run.bat-exists-20260430-190522": {
+      "action": "Confirmed run.bat exists.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-run.bat-exists-20260430-190522",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:22+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-run.ps1-exists-20260430-190523": {
+      "action": "Confirmed run.ps1 exists.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-run.ps1-exists-20260430-190523",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:23+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-settings.js-exists-20260430-190524": {
+      "action": "Confirmed settings.js exists.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-settings.js-exists-20260430-190524",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:24+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-confirmed-yt-dlp-was-not-available-on-global-path-20260430-190530": {
+      "action": "Confirmed yt-dlp was not available on global PATH.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-confirmed-yt-dlp-was-not-available-on-global-path-20260430-190530",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:30+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-copied-f-tools-yt_dlp_downloader-configs-batch_natgeo.conf-to-f--20260430-190508": {
+      "action": "Copied F:\\tools\\yt_dlp_downloader\\configs\\batch_NatGeo.conf to F:\\projects\\yt_dlp_downloader\\configs\\batch_NatGeo.tools-legacy.conf.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-copied-f-tools-yt_dlp_downloader-configs-batch_natgeo.conf-to-f--20260430-190508",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:08+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-copied-f-tools-yt_dlp_downloader-preset_channel-videos.txt-to-f--20260430-190507": {
+      "action": "Copied F:\\tools\\yt_dlp_downloader\\PRESET_channel-videos.txt to F:\\projects\\yt_dlp_downloader\\configs\\PRESET_channel-videos.txt.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-copied-f-tools-yt_dlp_downloader-preset_channel-videos.txt-to-f--20260430-190507",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:07+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-corrected-ecosystem-docs-so-gallable-is-classified-as-an-active--20260501-035554": {
+      "action": "Corrected ecosystem docs so Gallable is classified as an active local Electron gallery/review app at F:\\projects\\gallable-html #gallable #docs #vaultforge",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-corrected-ecosystem-docs-so-gallable-is-classified-as-an-active--20260501-035554",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:54+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-created-a-fresh-run-14-adapter-event-batch-for-courier-dry-run-v-20260501-035557": {
+      "action": "Created a fresh Run 14 adapter event batch for courier dry-run validation #dot4 #xp4l #event",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-created-a-fresh-run-14-adapter-event-batch-for-courier-dry-run-v-20260501-035557",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:57+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-created-a-minimal-adapter-event-batch-at-f-.4-inbox-events-codex-20260501-035534": {
+      "action": "Created a minimal adapter event batch at F:\\.4\\inbox\\events\\codex-run-20260501-run9c-minimal-xp4l-test.events.json #xp4l #dot4 #event",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-created-a-minimal-adapter-event-batch-at-f-.4-inbox-events-codex-20260501-035534",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:34+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-created-and-verified-all-ref-git-bundles-for-.4-vaultforge-vault-20260501-035607": {
+      "action": "Created and verified all-ref Git bundles for .4, vaultforge, vaultforge-xp4l, vaultforge-ecosystem, openai, gallable-html, and vaultforge-art #git #backup #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-created-and-verified-all-ref-git-bundles-for-.4-vaultforge-vault-20260501-035607",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:56:07+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-created-f-.4-inbox-rejected-and-f-.4-inbox-processed_legacy_dot4-20260501-035531": {
+      "action": "Created F:\\.4\\inbox\\rejected and F:\\.4\\inbox\\processed_legacy_dot4_event_v1 to standardize the active .4 queue shape #dot4 #xp4l #automation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-created-f-.4-inbox-rejected-and-f-.4-inbox-processed_legacy_dot4-20260501-035531",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:31+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-created-f-_backups-git-bundles-2026-05-01-for-verified-local-git-20260501-035605": {
+      "action": "Created F:\\_BACKUPS\\git-bundles\\2026-05-01 for verified local Git bundle backups #git #backup #automation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-created-f-_backups-git-bundles-2026-05-01-for-verified-local-git-20260501-035605",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:56:05+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-created-fresh-.venv-with-python--m-venv-.venv-pass-20260430-190547": {
+      "action": "Created fresh .venv with python -m venv .venv: PASS.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-created-fresh-.venv-with-python--m-venv-.venv-pass-20260430-190547",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:47+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-did-not-copy-vault-preset_channel-videos.txt-because-useful-cont-20260430-190510": {
+      "action": "Did not copy vault PRESET_channel-videos.txt because useful content was already preserved from the tools copy.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-did-not-copy-vault-preset_channel-videos.txt-because-useful-cont-20260430-190510",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:10+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-did-not-copy-vault-watch_batch.txt-because-it-was-an-empty-0-byt-20260430-190509": {
+      "action": "Did not copy vault watch_batch.txt because it was an empty 0-byte file.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-did-not-copy-vault-watch_batch.txt-because-it-was-an-empty-0-byt-20260430-190509",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:09+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-held-198-fractal-dashboard-cleanup-and-possible-rename-for-later-20260430-190455": {
+      "action": "Held 198-fractal-dashboard cleanup and possible rename for later review.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-held-198-fractal-dashboard-cleanup-and-possible-rename-for-later-20260430-190455",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:55+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-held-invoice-reader-archival-because-contents-could-not-be-verif-20260430-190451": {
+      "action": "Held invoice-reader archival because contents could not be verified.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-held-invoice-reader-archival-because-contents-could-not-be-verif-20260430-190451",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:51+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-held-n8n-moves-pending-startup-command-and-config-checks-20260430-190447": {
+      "action": "Held n8n moves pending startup command and config checks.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-held-n8n-moves-pending-startup-command-and-config-checks-20260430-190447",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:47+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-held-the-run-9c-test-event-instead-of-live-materializing-it-so-d-20260501-035536": {
+      "action": "Held the Run 9C test event instead of live-materializing it so dry-run validation did not update XP4Life #xp4l #dot4 #safety",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-held-the-run-9c-test-event-instead-of-live-materializing-it-so-d-20260501-035536",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:36+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-held-yt_dlp_downloader-duplicate-archival-pending-config-compari-20260430-190443": {
+      "action": "Held yt_dlp_downloader duplicate archival pending config comparison.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-held-yt_dlp_downloader-duplicate-archival-pending-config-compari-20260430-190443",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:43+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-identified-core-chain-blockers-including-git-safe.directory-chec-20260501-035526": {
+      "action": "Identified core chain blockers including Git safe.directory checks, legacy .4 processed schema files, missing rejected archive, missing XP4L venv, stale UNIVERSAL.bat paths, and old E:\\ documentation references #vaultforge #xp4l #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-identified-core-chain-blockers-including-git-safe.directory-chec-20260501-035526",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:26+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-identified-f-projects-198-fractal-dashboard-1-as-likely-canonica-20260430-190453": {
+      "action": "Identified F:\\projects\\198-fractal-dashboard (1) as likely canonical because it has base dashboard files plus later additions.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-identified-f-projects-198-fractal-dashboard-1-as-likely-canonica-20260430-190453",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:53+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-installed-requirements.txt-pass-20260430-190551": {
+      "action": "Installed requirements.txt: PASS.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-installed-requirements.txt-pass-20260430-190551",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:51+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-installed-yt-dlp-pass-20260430-190552": {
+      "action": "Installed yt-dlp: PASS.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-installed-yt-dlp-pass-20260430-190552",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:52+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-kept-f-projects-legacy-code-ytdl-on-hold-20260430-190513": {
+      "action": "Kept F:\\projects\\legacy-code\\ytdl on HOLD.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-kept-f-projects-legacy-code-ytdl-on-hold-20260430-190513",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:13+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-kept-f-tools-yt_dlp_downloader-on-hold-20260430-190511": {
+      "action": "Kept F:\\tools\\yt_dlp_downloader on HOLD.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-kept-f-tools-yt_dlp_downloader-on-hold-20260430-190511",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:11+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-kept-f-vaults-vaults-me-tube-yt_dlp_downloader-on-hold-20260430-190512": {
+      "action": "Kept F:\\vaults\\vaults\\me-tube\\yt_dlp_downloader on HOLD.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-kept-f-vaults-vaults-me-tube-yt_dlp_downloader-on-hold-20260430-190512",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:12+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-limit-xp4l-dry-run-reporting-current-events-20260509-214758": {
+      "action": "limited XP4L dry-run reporting to current events",
+      "category": "coding",
+      "day": "2026-05-09",
+      "event_id": "vaultforge-code-limit-xp4l-dry-run-reporting-current-events-20260509-214758",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-09T21:47:58+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-limited-scope-to-canonical-yt_dlp_downloader-smoke-test-only-20260430-190516": {
+      "action": "Limited scope to canonical yt_dlp_downloader smoke test only.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-limited-scope-to-canonical-yt_dlp_downloader-smoke-test-only-20260430-190516",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:16+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-limited-scope-to-rebuilding-canonical-yt_dlp_downloader-.venv-on-20260430-190543": {
+      "action": "Limited scope to rebuilding canonical yt_dlp_downloader .venv only.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-limited-scope-to-rebuilding-canonical-yt_dlp_downloader-.venv-on-20260430-190543",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:43+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-limited-scope-to-yt_dlp-config-resolution-only-20260430-190457": {
+      "action": "Limited scope to yt_dlp config resolution only.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-limited-scope-to-yt_dlp-config-resolution-only-20260430-190457",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:57+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-archive-candidates-after-successful-smoke-test-f-tools-yt-20260430-190541": {
+      "action": "Logged archive candidates after successful smoke test: F:\\tools\\yt_dlp_downloader, F:\\vaults\\vaults\\me-tube\\yt_dlp_downloader, and F:\\projects\\legacy-code\\ytdl.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-archive-candidates-after-successful-smoke-test-f-tools-yt-20260430-190541",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:41+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-config-file-list-differences-between-the-tools-and-vault--20260430-190442": {
+      "action": "Logged config/file-list differences between the tools and vault yt_dlp_downloader copies.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-config-file-list-differences-between-the-tools-and-vault--20260430-190442",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:42+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-decision-needs-fix-20260430-190539": {
+      "action": "Logged decision: NEEDS FIX.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-decision-needs-fix-20260430-190539",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:39+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-decision-pass-20260430-190604": {
+      "action": "Logged decision: PASS.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-decision-pass-20260430-190604",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:06:04+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-f-projects-invoice-reader-access-denied-state-20260430-190449": {
+      "action": "Logged F:\\projects\\invoice-reader access-denied state.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-f-projects-invoice-reader-access-denied-state-20260430-190449",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:49+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-f-projects-invoice-reader-trainer-as-needing-further-perm-20260430-190450": {
+      "action": "Logged F:\\projects\\invoice-reader-trainer as needing further permission/state check.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-f-projects-invoice-reader-trainer-as-needing-further-perm-20260430-190450",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:50+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-f-projects-n8n-n8n-2.6.4-as-older-upstream-source-archive-20260430-190446": {
+      "action": "Logged F:\\projects\\n8n-n8n-2.6.4 as older upstream/source/archive candidate.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-f-projects-n8n-n8n-2.6.4-as-older-upstream-source-archive-20260430-190446",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:46+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-f-systems-n8n-user-as-runtime-user-data-20260430-190445": {
+      "action": "Logged F:\\systems\\n8n-user as runtime/user data.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-f-systems-n8n-user-as-runtime-user-data-20260430-190445",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:45+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-installed-pip-version-26.1-20260430-190553": {
+      "action": "Logged installed pip version: 26.1.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-installed-pip-version-26.1-20260430-190553",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:53+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-installed-setuptools-version-82.0.1-20260430-190554": {
+      "action": "Logged installed setuptools version: 82.0.1.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-installed-setuptools-version-82.0.1-20260430-190554",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:54+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-installed-wheel-version-0.47.0-20260430-190555": {
+      "action": "Logged installed wheel version: 0.47.0.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-installed-wheel-version-0.47.0-20260430-190555",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:55+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-installed-yt-dlp-version-2026.03.17-20260430-190556": {
+      "action": "Logged installed yt-dlp version: 2026.03.17.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-installed-yt-dlp-version-2026.03.17-20260430-190556",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:56+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-instruction-not-to-archive-until-the-archive-manifest-is--20260430-190607": {
+      "action": "Logged instruction not to archive until the archive manifest is reviewed.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-instruction-not-to-archive-until-the-archive-manifest-is--20260430-190607",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:06:07+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-next-safe-actions-before-any-duplicate-merging-deletion-a-20260430-190456": {
+      "action": "Logged next safe actions before any duplicate merging, deletion, archival, or E:\\ to F:\\ path refactor.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-next-safe-actions-before-any-duplicate-merging-deletion-a-20260430-190456",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:56+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-recommendation-for-next-run-to-prepare-an-archive-manifes-20260430-190606": {
+      "action": "Logged recommendation for next run to prepare an archive manifest for the remaining yt_dlp duplicate/archive candidates.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-recommendation-for-next-run-to-prepare-an-archive-manifes-20260430-190606",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:06:06+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-recommendation-to-keep-duplicate-folders-until-canonical--20260430-190514": {
+      "action": "Logged recommendation to keep duplicate folders until canonical lock-in is approved.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-recommendation-to-keep-duplicate-folders-until-canonical--20260430-190514",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:14+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-recommendation-to-rebuild-canonical-.venv-and-rerun-tool--20260430-190542": {
+      "action": "Logged recommendation to rebuild canonical .venv and rerun tool/static checks.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-recommendation-to-rebuild-canonical-.venv-and-rerun-tool--20260430-190542",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:42+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-recommendation-to-smoke-test-the-canonical-project-before-20260430-190515": {
+      "action": "Logged recommendation to smoke-test the canonical project before archiving or deleting ytdl duplicates.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-recommendation-to-smoke-test-the-canonical-project-before-20260430-190515",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:15+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-sha256-hashes-head-commits-bundle-sizes-and-worktree-note-20260501-035608": {
+      "action": "Logged SHA256 hashes, head commits, bundle sizes, and worktree notes for each Run 16A Git bundle backup #git #backup #docs",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-logged-sha256-hashes-head-commits-bundle-sizes-and-worktree-note-20260501-035608",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:56:08+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-stale-.venv-pyvenv.cfg-old-path-details-20260430-190538": {
+      "action": "Logged stale .venv\\pyvenv.cfg old path details.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-stale-.venv-pyvenv.cfg-old-path-details-20260430-190538",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:38+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-that-canonical-yt_dlp_downloader-is-healthy-enough-to-bec-20260430-190605": {
+      "action": "Logged that canonical yt_dlp_downloader is healthy enough to become the locked canonical copy.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-that-canonical-yt_dlp_downloader-is-healthy-enough-to-bec-20260430-190605",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:06:05+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-that-vault-flattening-duplicate-resolution-and-e-to-f-pat-20260430-190435": {
+      "action": "Logged that vault flattening, duplicate resolution, and E:\\ to F:\\ path refactor were not performed.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-that-vault-flattening-duplicate-resolution-and-e-to-f-pat-20260430-190435",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:35+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-the-two-198-fractal-dashboard-zip-files-as-byte-identical-20260430-190454": {
+      "action": "Logged the two 198-fractal-dashboard zip files as byte-identical by SHA256.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-the-two-198-fractal-dashboard-zip-files-as-byte-identical-20260430-190454",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:54+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-logged-yt_dlp_downloader-duplicates-and-related-artifact-f-tools-20260430-190441": {
+      "action": "Logged yt_dlp_downloader duplicates and related artifact: F:\\tools\\yt_dlp_downloader, F:\\vaults\\vaults\\me-tube\\yt_dlp_downloader, and F:\\projects\\legacy-code\\ytdl.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-logged-yt_dlp_downloader-duplicates-and-related-artifact-f-tools-20260430-190441",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:41+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-made-the-.4-courier-dry-run-by-default-requiring---live-before-p-20260501-035550": {
+      "action": "Made the .4 courier dry-run by default, requiring --live before processed/rejected moves are finalized #dot4 #xp4l #safety",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-made-the-.4-courier-dry-run-by-default-requiring---live-before-p-20260501-035550",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:50+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-mapped-the-core-vaultforge-chain-across-f-systems-vaultforge-eco-20260501-035525": {
+      "action": "Mapped the core VaultForge chain across F:\\systems\\vaultforge-ecosystem, F:\\vaultforge, F:\\vaultforge\\vaultforge-xp4l, F:\\.4, and F:\\XP4Life before live chain use #vaultforge #xp4l #dot4 #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-mapped-the-core-vaultforge-chain-across-f-systems-vaultforge-eco-20260501-035525",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:25+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-marked-f-projects-yt_dlp_downloader-as-canonical-for-this-pass-20260430-190500": {
+      "action": "Marked F:\\projects\\yt_dlp_downloader as canonical for this pass.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-marked-f-projects-yt_dlp_downloader-as-canonical-for-this-pass-20260430-190500",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:00+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-moved-f-code-new-folder-to-f-_trash_pending-code-new-folder-usin-20260430-190431": {
+      "action": "Moved F:\\code\\New folder to F:\\_TRASH_PENDING\\code-New folder using a collision-safe target.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-moved-f-code-new-folder-to-f-_trash_pending-code-new-folder-usin-20260430-190431",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:31+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-moved-f-code-requirements_checker-to-f-projects-legacy-code-requ-20260430-190427": {
+      "action": "Moved F:\\code\\requirements_checker to F:\\projects\\legacy-code\\requirements_checker.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-moved-f-code-requirements_checker-to-f-projects-legacy-code-requ-20260430-190427",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:27+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-moved-f-code-setup-to-f-projects-legacy-code-setup-20260430-190428": {
+      "action": "Moved F:\\code\\Setup to F:\\projects\\legacy-code\\Setup.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-moved-f-code-setup-to-f-projects-legacy-code-setup-20260430-190428",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:28+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-moved-f-code-ytdl-to-f-projects-legacy-code-ytdl-20260430-190429": {
+      "action": "Moved F:\\code\\ytdl to F:\\projects\\legacy-code\\ytdl.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-moved-f-code-ytdl-to-f-projects-legacy-code-ytdl-20260430-190429",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:29+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-moved-f-code-z.-setup.txt-to-f-projects-legacy-code-z.-setup.txt-20260430-190430": {
+      "action": "Moved F:\\code\\z. setup.txt to F:\\projects\\legacy-code\\z. setup.txt.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-moved-f-code-z.-setup.txt-to-f-projects-legacy-code-z.-setup.txt-20260430-190430",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:30+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-moved-f-code-zips-to-f-_trash_pending-zips-20260430-190432": {
+      "action": "Moved F:\\code\\zips to F:\\_TRASH_PENDING\\zips.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-moved-f-code-zips-to-f-_trash_pending-zips-20260430-190432",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:04:32+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-moved-four-legacy-dot4.event.v1-processed-json-files-into-f-.4-i-20260501-035532": {
+      "action": "Moved four legacy dot4.event.v1 processed JSON files into F:\\.4\\inbox\\processed_legacy_dot4_event_v1 without deleting them #dot4 #xp4l #cleanup",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-moved-four-legacy-dot4.event.v1-processed-json-files-into-f-.4-i-20260501-035532",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:32+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-moved-the-pending-run-9c-test-event-from-the-active-inbox-into-f-20260501-035537": {
+      "action": "Moved the pending Run 9C test event from the active inbox into F:\\.4\\inbox\\test_hold and confirmed an empty-queue dry-run passed #xp4l #dot4 #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-moved-the-pending-run-9c-test-event-from-the-active-inbox-into-f-20260501-035537",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:37+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-parked-the-run-14-test-event-in-f-.4-inbox-test_hold-and-verifie-20260501-035559": {
+      "action": "Parked the Run 14 test event in F:\\.4\\inbox\\test_hold and verified the active F:\\.4\\inbox\\events queue was clean afterward #dot4 #xp4l #safety",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-parked-the-run-14-test-event-in-f-.4-inbox-test_hold-and-verifie-20260501-035559",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:59+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-preserved-tools-batch_natgeo.conf-under-provenance-name-instead--20260430-190506": {
+      "action": "Preserved tools batch_NatGeo.conf under provenance name instead of overwriting canonical.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-preserved-tools-batch_natgeo.conf-under-provenance-name-instead--20260430-190506",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:06+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-protected-committed-run-10-run-11-run-12-and-run-14-stabilizatio-20260501-035609": {
+      "action": "Protected committed Run 10, Run 11, Run 12, and Run 14 stabilization points with verified local Git bundles #git #backup #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-protected-committed-run-10-run-11-run-12-and-run-14-stabilizatio-20260501-035609",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:56:09+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-proved-the-retargeted-courier-route-end-to-end-in-dry-run-mode-f-20260501-035558": {
+      "action": "Proved the retargeted courier route end to end in dry-run mode from F:\\.4\\stub.py to F:\\vaultforge\\vaultforge-xp4l with events_processed 1 and xp_awarded 62 #dot4 #xp4l #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-proved-the-retargeted-courier-route-end-to-end-in-dry-run-mode-f-20260501-035558",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:58+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-ran-node---check-settings.js-pass-20260430-190535": {
+      "action": "Ran node --check settings.js: PASS.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-ran-node---check-settings.js-pass-20260430-190535",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:35+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-ran-python--m-py_compile-downloader.py-pass-20260430-190534": {
+      "action": "Ran python -m py_compile downloader.py: PASS.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-ran-python--m-py_compile-downloader.py-pass-20260430-190534",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:34+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-rebuilt-the-stale-vaultforge-art-virtual-environment-at-f-tools--20260501-035542": {
+      "action": "Rebuilt the stale vaultforge-art virtual environment at F:\\tools\\image_generation\\vaultforge-art\\.venv and verified Python 3.14.4 plus openai 2.33.0 #vaultforge #coding #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-rebuilt-the-stale-vaultforge-art-virtual-environment-at-f-tools--20260501-035542",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:42+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-removed-generated-__pycache__-created-by-py_compile-because-it-d-20260430-190540": {
+      "action": "Removed generated __pycache__ created by py_compile because it did not exist before the smoke test.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-removed-generated-__pycache__-created-by-py_compile-because-it-d-20260430-190540",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:40+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-renamed-old-.venv-to-.venv_stale_pre_rebuild_2026-05-01-20260430-190546": {
+      "action": "Renamed old .venv to .venv_stale_pre_rebuild_2026-05-01.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-renamed-old-.venv-to-.venv_stale_pre_rebuild_2026-05-01-20260430-190546",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:46+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-repaired-f-vaultforge-universal.bat-art-lane-routing-from-stale--20260501-035539": {
+      "action": "Repaired F:\\vaultforge\\UNIVERSAL.bat art lane routing from stale E:\\tools\\image_generation\\vaultforge-art to F:\\tools\\image_generation\\vaultforge-art #vaultforge #coding #automation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-repaired-f-vaultforge-universal.bat-art-lane-routing-from-stale--20260501-035539",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:39+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-repaired-f-vaultforge-universal.bat-xp4l-lane-to-run-python--m-v-20260501-035540": {
+      "action": "Repaired F:\\vaultforge\\UNIVERSAL.bat xp4l lane to run python -m vaultforge_xp4l from F:\\vaultforge\\vaultforge-xp4l instead of missing main.py #vaultforge #xp4l #coding",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-repaired-f-vaultforge-universal.bat-xp4l-lane-to-run-python--m-v-20260501-035540",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:40+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-retargeted-f-.4-stub.py-away-from-direct-xp4l_consumer.py-handof-20260501-035549": {
+      "action": "Retargeted F:\\.4\\stub.py away from direct xp4l_consumer.py handoff to python -m vaultforge_xp4l through the adapter route #dot4 #xp4l #coding",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-retargeted-f-.4-stub.py-away-from-direct-xp4l_consumer.py-handof-20260501-035549",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:49+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-retested-.venv-scripts-python.exe---version-python-3.14.4-20260430-190557": {
+      "action": "Retested .venv\\Scripts\\python.exe --version: Python 3.14.4.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-retested-.venv-scripts-python.exe---version-python-3.14.4-20260430-190557",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:57+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-retested-.venv-scripts-python.exe--m-yt_dlp---version-2026.03.17-20260430-190558": {
+      "action": "Retested .venv\\Scripts\\python.exe -m yt_dlp --version: 2026.03.17.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-retested-.venv-scripts-python.exe--m-yt_dlp---version-2026.03.17-20260430-190558",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:58+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-retested-.venv-scripts-yt-dlp.exe---version-2026.03.17-20260430-190559": {
+      "action": "Retested .venv\\Scripts\\yt-dlp.exe --version: 2026.03.17.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-retested-.venv-scripts-yt-dlp.exe---version-2026.03.17-20260430-190559",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:59+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-retested-node---check-settings.js-pass-20260430-190601": {
+      "action": "Retested node --check settings.js: PASS.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-retested-node---check-settings.js-pass-20260430-190601",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:06:01+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-retested-python--m-py_compile-downloader.py-pass-20260430-190600": {
+      "action": "Retested python -m py_compile downloader.py: PASS.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-retested-python--m-py_compile-downloader.py-pass-20260430-190600",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:06:00+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-reviewed-f-tools-yt_dlp_downloader-configs-batch_natgeo.conf-20260430-190501": {
+      "action": "Reviewed F:\\tools\\yt_dlp_downloader\\configs\\batch_NatGeo.conf.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-reviewed-f-tools-yt_dlp_downloader-configs-batch_natgeo.conf-20260430-190501",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:01+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-reviewed-f-tools-yt_dlp_downloader-preset_channel-videos.txt-20260430-190503": {
+      "action": "Reviewed F:\\tools\\yt_dlp_downloader\\PRESET_channel-videos.txt.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-reviewed-f-tools-yt_dlp_downloader-preset_channel-videos.txt-20260430-190503",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:03+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-reviewed-f-vaults-vaults-me-tube-yt_dlp_downloader-configs-watch-20260430-190502": {
+      "action": "Reviewed F:\\vaults\\vaults\\me-tube\\yt_dlp_downloader\\configs\\watch_batch.txt.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-reviewed-f-vaults-vaults-me-tube-yt_dlp_downloader-configs-watch-20260430-190502",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:02+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-reviewed-f-vaults-vaults-me-tube-yt_dlp_downloader-preset_channe-20260430-190504": {
+      "action": "Reviewed F:\\vaults\\vaults\\me-tube\\yt_dlp_downloader\\PRESET_channel-videos.txt.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-reviewed-f-vaults-vaults-me-tube-yt_dlp_downloader-preset_channe-20260430-190504",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:04+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-reviewed-run.bat-launcher-mode-20260430-190602": {
+      "action": "Reviewed run.bat launcher mode.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-reviewed-run.bat-launcher-mode-20260430-190602",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:06:02+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-reviewed-run.ps1-launcher-mode-20260430-190603": {
+      "action": "Reviewed run.ps1 launcher mode.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-reviewed-run.ps1-launcher-mode-20260430-190603",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:06:03+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-synced-control-plane-path-inventory-and-ecosystem-docs-to-the-co-20260501-035545": {
+      "action": "Synced control-plane path inventory and ecosystem docs to the confirmed F:\\ runtime chain without broad generated/snapshot rewrites #vaultforge #docs #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-synced-control-plane-path-inventory-and-ecosystem-docs-to-the-co-20260501-035545",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:45+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-updated-f-.4-readme.txt-to-document-the-courier-as-postman-not-a-20260501-035551": {
+      "action": "Updated F:\\.4\\README.txt to document the courier as postman, not accountant, and point it at the vaultforge-xp4l adapter #dot4 #xp4l #docs",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-updated-f-.4-readme.txt-to-document-the-courier-as-postman-not-a-20260501-035551",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:51+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-updated-f-openai-openai_cockpit_migration_plan.md-to-reflect-the-20260501-035547": {
+      "action": "Updated F:\\openai\\OPENAI_COCKPIT_MIGRATION_PLAN.md to reflect the active F:\\openai cockpit workspace path #docs #openai #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-updated-f-openai-openai_cockpit_migration_plan.md-to-reflect-the-20260501-035547",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:47+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-updated-vaultforge-xp4l-live-run-guidance-to-document-the-active-20260501-035546": {
+      "action": "Updated vaultforge-xp4l live-run guidance to document the active F:\\.4\\inbox\\events adapter inbox and F:\\XP4Life target #xp4l #docs #dot4",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-updated-vaultforge-xp4l-live-run-guidance-to-document-the-active-20260501-035546",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:46+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-upgraded-pip-pass-20260430-190550": {
+      "action": "Upgraded pip: PASS.",
+      "category": "maintenance",
+      "day": "2026-04-30",
+      "event_id": "vaultforge-code-upgraded-pip-pass-20260430-190550",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-04-30T19:05:50+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-validated-python-f-.4-stub.py---help-and---show-command-with-dry-20260501-035552": {
+      "action": "Validated python F:\\.4\\stub.py --help and --show-command with dry_run true, accepted_event_count 0, and exit code 0 #dot4 #xp4l #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-validated-python-f-.4-stub.py---help-and---show-command-with-dry-20260501-035552",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:52+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-validated-the-minimal-run-9c-event-through-vaultforge-xp4l-dry-r-20260501-035535": {
+      "action": "Validated the minimal Run 9C event through vaultforge-xp4l dry-run with events_processed 1 and xp_awarded 62 #xp4l #dot4 #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-validated-the-minimal-run-9c-event-through-vaultforge-xp4l-dry-r-20260501-035535",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:35+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-validated-universal.bat-art---help-xp4l---help-xp4l-dry-run-and--20260501-035543": {
+      "action": "Validated UNIVERSAL.bat art --help, xp4l --help, xp4l dry-run, and test smoke routes without live XP4Life materialization #vaultforge #xp4l #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-validated-universal.bat-art---help-xp4l---help-xp4l-dry-run-and--20260501-035543",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:43+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-verified-vaultforge-xp4l-cli-help-works-from-source-with-pythonp-20260501-035528": {
+      "action": "Verified vaultforge-xp4l CLI help works from source with PYTHONPATH=src and PYTHONDONTWRITEBYTECODE=1 #xp4l #coding #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-verified-vaultforge-xp4l-cli-help-works-from-source-with-pythonp-20260501-035528",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:28+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-verified-vaultforge-xp4l-dry-run-against-the-cleaned-f-.4-inbox--20260501-035533": {
+      "action": "Verified vaultforge-xp4l dry-run against the cleaned F:\\.4\\inbox\\events queue with accepted_event_count 0 and no rejected files #xp4l #dot4 #validation",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-verified-vaultforge-xp4l-dry-run-against-the-cleaned-f-.4-inbox--20260501-035533",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:55:33+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-workflow-b-cycle-1-vaultforge-engine-review-20260509-195922": {
+      "action": "completed Workflow B cycle 1 vaultforge-engine verification review",
+      "category": "review",
+      "day": "2026-05-09",
+      "event_id": "vaultforge-code-workflow-b-cycle-1-vaultforge-engine-review-20260509-195922",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-09T19:59:22+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-workflow-b-cycle-2-vaultforge-engine-review-20260509-200800": {
+      "action": "completed Workflow B cycle 2 vaultforge-engine verification review",
+      "category": "review",
+      "day": "2026-05-09",
+      "event_id": "vaultforge-code-workflow-b-cycle-2-vaultforge-engine-review-20260509-200800",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-09T20:08:00+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-workflow-b-hard-gate-management-update-20260509-215207": {
+      "action": "updated Workflow B hard gate management and operator handoff docs",
+      "category": "coordination",
+      "day": "2026-05-09",
+      "event_id": "vaultforge-code-workflow-b-hard-gate-management-update-20260509-215207",
+      "event_type": "task_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-09T21:52:07+00:00",
+      "xp_awarded": 50
+    },
+    "vaultforge-code-wrote-the-git-bundle-backup-manifest-at-f-_backups-git-bundles-2-20260501-035606": {
+      "action": "Wrote the Git bundle backup manifest at F:\\_BACKUPS\\git-bundles\\2026-05-01\\MANIFEST.txt #git #backup #docs",
+      "category": "system",
+      "day": "2026-05-01",
+      "event_id": "vaultforge-code-wrote-the-git-bundle-backup-manifest-at-f-_backups-git-bundles-2-20260501-035606",
+      "event_type": "checklist_item_completed",
+      "source": "vaultforge-code",
+      "timestamp": "2026-05-01T03:56:06+00:00",
+      "xp_awarded": 50
     }
   },
   "last_run": {
-    "applied_at": "2026-04-16T23:48:31.840136+00:00",
+    "applied_at": "2026-05-10T01:57:23.150013+00:00",
     "applied_bonus_xp_awarded": 0,
     "applied_event_ids": [
-      "icon_loop_run-20260417-03"
+      "vaultforge-code-workflow-b-cycle-1-vaultforge-engine-review-20260509-195922",
+      "vaultforge-code-workflow-b-cycle-2-vaultforge-engine-review-20260509-200800",
+      "vaultforge-business-paid-launch-decision-note-20260509-202125",
+      "vaultforge-code-limit-xp4l-dry-run-reporting-current-events-20260509-214758",
+      "vaultforge-code-workflow-b-hard-gate-management-update-20260509-215207"
     ],
-    "applied_event_xp_awarded": 260,
-    "applied_xp_awarded": 260,
+    "applied_event_xp_awarded": 250,
+    "applied_xp_awarded": 250,
     "batch_event_ids": [
-      "icon_loop_run-20260417-03"
+      "vaultforge-code-workflow-b-cycle-1-vaultforge-engine-review-20260509-195922",
+      "vaultforge-code-workflow-b-cycle-2-vaultforge-engine-review-20260509-200800",
+      "vaultforge-business-paid-launch-decision-note-20260509-202125",
+      "vaultforge-code-limit-xp4l-dry-run-reporting-current-events-20260509-214758",
+      "vaultforge-code-workflow-b-hard-gate-management-update-20260509-215207"
     ],
     "duplicate_event_ids": [],
-    "issued_reward_keys": [
-      "xp-threshold::1800::vault-architect"
-    ]
+    "issued_reward_keys": []
   },
   "quests": {
     "batch-builder": {
-      "completed": true,
-      "completed_on": "2026-04-17",
-      "matched_event_ids": [
-        "live-validation-batch-20260417-01",
-        "live-validation-batch-20260417-02",
-        "live-validation-batch-20260417-03",
-        "icon_loop_run-20260417-03"
-      ],
-      "reward_xp_claimed": true
+      "completed": false,
+      "completed_on": "",
+      "matched_event_ids": [],
+      "reward_xp_claimed": false
     },
     "icon-output-streak": {
       "completed": false,
@@ -138,29 +1654,22 @@
     }
   },
   "rewards": {
-    "achievement::engine-architect-i::architect-s-sigil": {
-      "issued_on": "2026-04-17",
-      "name": "Architect's Sigil",
-      "rarity": "epic",
-      "reason": "Unlocked achievement engine-architect-i",
-      "type": "item"
-    },
     "xp-threshold::1800::vault-architect": {
-      "issued_on": "2026-04-17",
+      "issued_on": "2026-04-30",
       "name": "Vault Architect",
       "rarity": "epic",
       "reason": "Reached 1800 cumulative XP",
       "type": "title"
     },
     "xp-threshold::400::apprentice-cache": {
-      "issued_on": "2026-04-17",
+      "issued_on": "2026-04-30",
       "name": "Apprentice Cache",
       "rarity": "common",
       "reason": "Reached 400 cumulative XP",
       "type": "title"
     },
     "xp-threshold::900::fireforged-toolset": {
-      "issued_on": "2026-04-17",
+      "issued_on": "2026-04-30",
       "name": "Fireforged Toolset",
       "rarity": "rare",
       "reason": "Reached 900 cumulative XP",
@@ -169,9 +1678,9 @@
   },
   "schema_version": 1,
   "totals": {
-    "bonus_xp_awarded": 680,
-    "event_xp_awarded": 1144,
-    "events_processed": 7,
-    "xp_awarded": 1824
+    "bonus_xp_awarded": 0,
+    "event_xp_awarded": 8006,
+    "events_processed": 160,
+    "xp_awarded": 8006
   }
 }

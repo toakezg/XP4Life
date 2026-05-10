@@ -2,23 +2,23 @@
 note_type: xp4l_reward
 xp4l_generated: true
 materialized_by: vaultforge-xp4l
-reward_name: "Architect's Sigil"
-reward_type: item
+reward_name: "Vault Architect"
+reward_type: title
 rarity: epic
-reason: "Unlocked achievement engine-architect-i"
-awarded_on: 2026-04-17
+reason: "Reached 1800 cumulative XP"
+awarded_on: 2026-04-30
 tags:
   - xp4l
   - reward
-  - item
+  - title
   - epic
 ---
-# Architect's Sigil
+# Vault Architect
 
 ## Summary
-- Type: item
+- Type: title
 - Rarity: epic
-- Reason: Unlocked achievement engine-architect-i
+- Reason: Reached 1800 cumulative XP
 
 ## Notes
 - This reward note is managed by VaultForge XP4L.

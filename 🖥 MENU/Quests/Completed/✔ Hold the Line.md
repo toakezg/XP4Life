@@ -1,13 +1,13 @@
 ---
 quest_id: QST-PRS-001
-name: "Hold the Line"
-status: active
+name: Hold the Line
+status: completed
 category: personal
 tier: uncommon
 xp_reward: 120
 achievement_unlocks:
   - VF-PRS-002
-title_reward: "Trail Initiate"
+title_reward: Trail Initiate
 created: 2026-04-10
 due: 2026-04-16
 tags:
@@ -25,7 +25,7 @@ Push through one session of resistance and finish something useful on the other 
 - [x] Commit to a focused work block ✅ 2026-04-11
 - [x] Keep going after the first urge to stop ✅ 2026-04-17
 - [x] Finish one concrete output ✅ 2026-04-17
-- [ ] Log what nearly pulled you off track
+- [x] Log what nearly pulled you off track ✅ 2026-05-02
 
 ## Rewards
 - XP: 120

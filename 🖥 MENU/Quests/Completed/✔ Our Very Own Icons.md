@@ -1,7 +1,7 @@
 ---
 quest_id: QST-CRT-003
 name: Our Very Own Icons
-status: active
+status: completed
 category: creative
 tier: uncommon
 xp_reward: 100
@@ -26,13 +26,13 @@ for highlighted files and folders. Bonus non-highlighted icons are welcome if th
 	- [x] Dashboard Icon ✅ 2026-04-17
 	- [x] Quests - Active, / Completed Icon ✅ 2026-04-17
 	- [x] Titles - Each Custom Icon ✅ 2026-04-17
-	- [ ] AGENTS Icon
-	- [ ] CHANGELOG Icon
-	- [ ] PLAN
-	- [ ] PROJECT CONTRACT
-	- [ ] README
+	- [x] AGENTS Icon ✅ 2026-05-02
+	- [x] CHANGELOG Icon ✅ 2026-05-02
+	- [x] PLAN ✅ 2026-05-02
+	- [x] PROJECT CONTRACT ✅ 2026-05-02
+	- [x] README ✅ 2026-05-02
 	- [x] TASKS ✅ 2026-04-17
-	- [ ] Welcome
+	- [x] Welcome ✅ 2026-05-02
 	- [x] Bonus ✅ 2026-04-17
 
 

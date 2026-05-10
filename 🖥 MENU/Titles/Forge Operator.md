@@ -1,11 +1,11 @@
 ---
 title_id: TTL-004
-name: "Forge Operator"
-unlock_condition: "Run a creative system that produces batches, packs, or repeatable output."
+name: Forge Operator
+unlock_condition: Run a creative system that produces batches, packs, or repeatable output.
 category: creative
 tier: rare
-description: "Recognizes control over a creative pipeline instead of isolated bursts of output."
-unlocked: false
+description: Recognizes control over a creative pipeline instead of isolated bursts of output.
+unlocked: true
 unlocked_on:
 linked_achievements:
   - VF-CRT-001
